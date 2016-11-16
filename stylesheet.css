@@ -164,12 +164,11 @@ a:hover {
 
 #content_inside_main table, th, td {
   border: 1px solid black;
-}
-#content_inside_main th{
-  text-align: left;
+  vertical-align: bottom;
 }
 
 #content_inside_main td th {
+  text-align: left;
   padding:0 15px 0 15px;
 }
 
