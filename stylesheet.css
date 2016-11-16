@@ -121,7 +121,7 @@ a:hover {
   padding:30px 0 5px;
 }
 #content_inside_main h2 {
-  color:#009CFD80;
+  color:rgba(0, 156, 253, 0.5);
   font-size:115%;
   text-align:right;
 }
