@@ -54,6 +54,7 @@ a:hover {
   line-height:100px;
   margin:0 0 0 20px;
   width:400px;
+  text-align: center;
 }
 #header_inside h1 span {
   color:#009CFD;
