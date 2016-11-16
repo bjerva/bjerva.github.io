@@ -43,7 +43,7 @@ a:hover {
   border-left:1px solid #bbb;
   border-right:1px solid #bbb;
   margin:0 auto;
-  width:800px;
+  width:1200px;
 }
 #header_inside h1 {
   color:#fff;
@@ -104,7 +104,7 @@ a:hover {
   border-left:1px solid #bbb;
   border-right:1px solid #bbb;
   margin:0 auto;
-  width:800px;
+  width:1200px;
 }
 #content_inside_main {
   background:#fff;
@@ -152,7 +152,7 @@ a:hover {
   border-right:1px solid #bbb;
   height:100px;
   margin:0 auto;
-  width:800px;
+  width:1200px;
 }
 #footer_inside p {
   color:#009CFD;
@@ -168,6 +168,6 @@ a:hover {
   text-align: left;
 }
 
-#content_inside_main td {
+#content_inside_main td th {
     padding:0 15px 0 15px;
 }
