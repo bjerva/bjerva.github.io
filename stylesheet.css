@@ -164,6 +164,7 @@ a:hover {
 
 #content_inside_main table, th, td {
   border: 1px solid black;
+  text-align: left;
   border-collapse: collapse;
   vertical-align: top;
   padding: 5px;
@@ -175,9 +176,6 @@ a:hover {
   padding:0 15px 0 15px;
 }
 
-#content_inside_main td {
-    tedt-align: justify;
-}
 #content_inside_main tr:nth-child(even) {
     background-color: #dddddd;
 }
