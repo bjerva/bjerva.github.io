@@ -121,9 +121,9 @@ a:hover {
   padding:30px 0 5px;
 }
 #content_inside_main h2 {
-  color:rgba(0, 156, 253, 0.5);
+  color:rgba(0, 156, 253, 0.6);
   font-size:115%;
-  text-align:right;
+  text-align:left;
 }
 #content_inside_main ul {
   list-style-position:inside;
