@@ -163,7 +163,7 @@ a:hover {
 }
 
 #content_inside_main table, th, td {
-  border: 0px white;
+  border: 1px black;
 }
 #content_inside_main th{
   text-align: left;
