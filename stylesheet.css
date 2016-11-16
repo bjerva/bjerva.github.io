@@ -7,12 +7,11 @@
   border:0;
   margin:0;
   padding:0;
-  background:#ffffff;
 }
 
 /* body */
 body {
-  background:#000000;
+  background:#fff;
   color:#666;
   font:0.78em/100% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   line-height:1.4em;
