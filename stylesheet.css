@@ -129,10 +129,6 @@ a:hover {
   list-style-position:inside;
 }
 
-#content_inside_main ul > li {
-    margin-left: 10px;
-}
-
 #content_inside_main p {
   padding:0 0 10px;
   text-align:justify;
