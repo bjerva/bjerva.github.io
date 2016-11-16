@@ -123,6 +123,7 @@ a:hover {
 #content_inside_main h2 {
   color:rgba(0, 156, 253, 0.6);
   font-size:115%;
+  margin-top: 10px;
   text-align:left;
 }
 #content_inside_main ul {
