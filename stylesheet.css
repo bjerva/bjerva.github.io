@@ -114,13 +114,13 @@ a:hover {
   width:380px;
 }
 #content_inside_main h1 {
-  color:#002452;
+  color:#009CFD;
   border-bottom:1px solid #ccc;
   font-size:125%;
   padding:30px 0 5px;
 }
 #content_inside_main h2 {
-  color:#002452;
+  color:#009CFD80;
   font-size:115%;
   text-align:right;
 }
