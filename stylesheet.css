@@ -159,3 +159,7 @@ a:hover {
   text-align:right;
   font-size:50%;
 }
+
+#content_inside_main table, th, td {
+    border: 0px;
+}
