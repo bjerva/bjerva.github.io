@@ -125,6 +125,9 @@ a:hover {
   font-size:115%;
   text-align:right;
 }
+#content_inside_main ul {
+  list-style-position:inside;
+}
 #content_inside_main p {
   padding:0 0 10px;
   text-align:justify;
