@@ -165,6 +165,7 @@ a:hover {
 #content_inside_main table, th, td {
   border: 1px solid black;
   vertical-align: top;
+  padding: 5px;
 }
 
 #content_inside_main td th {
