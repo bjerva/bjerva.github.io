@@ -176,3 +176,6 @@ a:hover {
 #content_inside_main td {
     tedt-align: justify;
 }
+#content_inside_main tr:nth-child(even) {
+    background-color: #dddddd;
+}
