@@ -164,7 +164,7 @@ a:hover {
 
 #content_inside_main table, th, td {
   border: 1px solid black;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 #content_inside_main td th {
