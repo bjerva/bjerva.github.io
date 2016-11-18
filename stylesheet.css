@@ -30,7 +30,7 @@ a:hover {
 /* header */
 #header {
   background:rgba(0, 0, 0, 0.5); url('image/background_header.jpg') center repeat-y;
-  height: 200px;
+  height: 140px;
   width:100%;
 }
 #header:after {
