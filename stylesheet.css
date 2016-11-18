@@ -138,7 +138,7 @@ a:hover {
 }
 /* footer */
 #footer {
-  background:#323232 url('image/background_footer.jpg') center repeat-y;
+  background:rgba(0, 0, 0, 0.5) url('image/background_footer.jpg') center repeat-y;
   height:50px;
   width:100%;
 }
