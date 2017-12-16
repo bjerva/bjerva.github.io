@@ -14,14 +14,14 @@
     font-weight: normal;
     font-style: normal;
 }
-.ai {
+/*.ai {
 	display:inline-block;
 	font:normal normal normal 14px/1 Academicons;
 	font-size:inherit;
 	text-rendering:auto;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
-}
+}*/
 
 /* Icon */
 
@@ -34,7 +34,7 @@
 		.ai:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+      font:normal normal normal 14px/1 Academicons;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
