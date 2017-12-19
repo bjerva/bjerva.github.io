@@ -2424,8 +2424,8 @@
 		}
 
 		.thumbnails > ul,li,h3 {
-			padding-left: 2em;
-			margin-left: 2em;
+			padding-left: 1em;
+			margin-left: 1em;
 		}
 			.thumbnails > div > :last-child {
 				margin-bottom: 0;
