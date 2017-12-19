@@ -2427,6 +2427,11 @@
 			padding-left: 1em;
 			margin-left: 1em;
 		}
+		.thumbnails > h3 {
+			padding-left: 1em;
+			margin-left: 1em;
+			text-align: center;
+		}
 			.thumbnails > div > :last-child {
 				margin-bottom: 0;
 			}
