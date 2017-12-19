@@ -2422,9 +2422,10 @@
 			flex-direction: column;
 			width: calc(100% / 3);
 		}
-		
+
 		.thumbnails > ul {
-			padding-left: 1em;
+			padding-left: 2em;
+			margin-left: 2em;
 		}
 
 			.thumbnails > div > :last-child {
