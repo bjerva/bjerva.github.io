@@ -1683,6 +1683,7 @@
 			box-shadow: 0 0 0 1px #FF6382;
 		}
 
+/*
 	.select-wrapper {
 		text-decoration: none;
 		display: block;
@@ -1715,6 +1716,7 @@
 		.select-wrapper select::-ms-expand {
 			display: none;
 		}
+		*/
 
 	input[type="text"],
 	input[type="password"],
