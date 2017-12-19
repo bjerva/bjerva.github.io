@@ -2423,11 +2423,10 @@
 			width: calc(100% / 3);
 		}
 
-		.thumbnails > ul,li {
+		.thumbnails > ul,li,h3 {
 			padding-left: 2em;
 			margin-left: 2em;
 		}
-
 			.thumbnails > div > :last-child {
 				margin-bottom: 0;
 			}
