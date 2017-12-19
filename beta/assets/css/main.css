@@ -2424,8 +2424,8 @@
 		}
 
 		.thumbnails > ul,li {
-			padding: 2em;
-			margin: 2em;
+			padding-left: 2em;
+			margin-left: 2em;
 		}
 
 			.thumbnails > div > :last-child {
