@@ -2557,6 +2557,7 @@
 		transition: opacity 1s ease, filter 1s ease;
 	}
 
+/*
 	body.is-loading #wrapper {
 		opacity: 0;
 		-moz-filter: blur(1px);
@@ -2571,6 +2572,7 @@
 		-ms-filter: blur(3px);
 		filter: blur(3px);
 	}
+*/
 
 /* Header */
 
