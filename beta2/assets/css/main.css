@@ -2537,6 +2537,7 @@
 					padding-top: 0;
 				}
 
+/*
 		ul.icons {
 			cursor: default;
 			list-style: none;
@@ -2570,6 +2571,7 @@
 				transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 				font-size: 1rem;
 			}
+			*/
 
 		ul.actions {
 			cursor: default;
