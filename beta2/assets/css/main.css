@@ -3108,7 +3108,7 @@
 
 	#intro {
 		color: #ffffff;
-		padding: 2rem 1rem 1.5rem 1rem ;
+		padding: 2rem 1rem 2rem 1rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3133,7 +3133,7 @@
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 70vh;
+		min-height: 80vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3699,7 +3699,7 @@
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
-				line-height: 16px;
+				line-height: 20px;
 			}
 
 				#main > .posts > article > :last-child {
