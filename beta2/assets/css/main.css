@@ -3108,6 +3108,7 @@
 
 	#intro {
 		color: #ffffff;
+		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3132,7 +3133,7 @@
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 50vh;
+		min-height: 100vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
