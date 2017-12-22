@@ -21,6 +21,7 @@ $(function() {
 		});
 
 	// Disable animations/transitions until everything's loaded.
+	/*
 		$body.addClass('is-loading');
 
 		$window.on('load', function() {
@@ -28,7 +29,6 @@ $(function() {
 		});
 
 	// Poptrox.
-	/*
 		$window.on('load', function() {
 
 			$('.thumbnails').poptrox({
