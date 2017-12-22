@@ -2430,6 +2430,11 @@
 			margin-left: 1em;
 			text-align: center;
 		}
+
+		.thumbnails > h2 {
+			padding-top: 1em;
+			font-weight: bold;
+		}
 			.thumbnails > div > :last-child {
 				margin-bottom: 0;
 			}
