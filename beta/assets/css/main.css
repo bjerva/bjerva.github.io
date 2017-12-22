@@ -2418,8 +2418,11 @@
 		.thumbnails > ul,li,h3 {
 			padding-left: 1em;
 			margin-left: 1em;
+			padding-right: 1em;
+			margin-right: 1em;
 		}
 		.thumbnails > h3 {
+			font-weight: bold;
 			padding-left: 1em;
 			margin-left: 1em;
 			text-align: center;
