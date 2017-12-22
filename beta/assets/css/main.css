@@ -2418,20 +2418,13 @@
 			width: calc(100% / 3);
 		}
 
-		.thumbnails > ul,li,h3 {
+		.thumbnails > ul,li {
 			padding-left: 1em;
 			margin-left: 1em;
 			padding-right: 1em;
 			margin-right: 1em;
 		}
-		.thumbnails > h3 {
-			font-weight: bold;
-			padding-left: 1em;
-			margin-left: 1em;
-			text-align: center;
-		}
-
-		.thumbnails > h2 {
+		.thumbnails > h2,h3 {
 			padding-top: 1em;
 			font-weight: bold;
 		}
