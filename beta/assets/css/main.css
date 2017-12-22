@@ -2630,7 +2630,7 @@
 						#header nav ul li a.button, #header nav ul li span.button {
 							height: 2em;
 							line-height: 2em;
-							padding: 0 1.25em;
+							padding: 0 0.5em;
 						}
 
 						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
