@@ -2402,7 +2402,7 @@
 				background-color: rgba(255, 255, 255, 0.075);
 				outline: 0;
 			}
-			.thumbnails p,h1,h2,h3 {
+			.thumbnails p {
 				padding: 1em;
 			}
 
