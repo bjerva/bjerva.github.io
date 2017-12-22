@@ -2398,8 +2398,8 @@
 				margin: 0 2em 0em 1em;
 				text-align: left;
 				border-radius: 4px;
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-				background-color: rgba(0, 0, 0, 0.2);
+				box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4);
+				background-color: rgba(0, 0, 0, 0.3);
 				outline: 0;
 			}
 			.thumbnails p {
