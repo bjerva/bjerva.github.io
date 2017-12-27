@@ -528,6 +528,10 @@
 			margin-left: 8.33333%;
 		}
 
+						#twitter {
+								display: none;
+						}
+
 	}
 
 	@media screen and (max-width: 1280px) {
@@ -742,6 +746,10 @@
 		.\-1u\28large\29 {
 			margin-left: 8.33333%;
 		}
+
+						#twitter {
+								display: none;
+						}
 
 	}
 
@@ -958,6 +966,11 @@
 			margin-left: 8.33333%;
 		}
 
+
+						#twitter {
+								display: none;
+						}
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1172,6 +1185,11 @@
 		.\-1u\28small\29 {
 			margin-left: 8.33333%;
 		}
+
+
+						#twitter {
+								display: none;
+						}
 
 	}
 
@@ -1388,6 +1406,10 @@
 			margin-left: 8.33333%;
 		}
 
+						#twitter {
+								display: none;
+						}
+
 	}
 
 /* Basic */
@@ -1405,6 +1427,10 @@
 		html, body {
 			min-width: 320px;
 		}
+
+						#twitter {
+								display: none;
+						}
 
 	}
 
@@ -1443,6 +1469,10 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+							#twitter {
+									display: none;
+							}
 
 		}
 
@@ -1484,6 +1514,9 @@
 				display: none;
 			}
 
+							#twitter {
+									display: none;
+							}
 		}
 
 	h1 {
@@ -1496,6 +1529,10 @@
 				font-size: 1.5em;
 			}
 
+							#twitter {
+									display: none;
+							}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1503,6 +1540,10 @@
 			h1 {
 				font-size: 1.25em;
 			}
+
+							#twitter {
+									display: none;
+							}
 
 		}
 
@@ -1515,6 +1556,10 @@
 			h2 {
 				font-size: 1em;
 			}
+
+							#twitter {
+									display: none;
+							}
 
 		}
 
@@ -2458,6 +2503,10 @@
 				font-size: 0.8em;
 			}
 
+							#twitter {
+									display: none;
+							}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2478,6 +2527,10 @@
 				.thumbnails h3 {
 					font-size: 1em;
 				}
+
+								#twitter {
+										display: none;
+								}
 
 		}
 
@@ -2602,6 +2655,10 @@
 				padding: 2em 0 1em 0;
 			}
 
+							#twitter {
+									display: none;
+							}
+
 		}
 
 		#header nav {
@@ -2667,5 +2724,9 @@
 			#footer {
 				padding: 2em 0 2em 0;
 			}
+
+							#twitter {
+									display: none;
+							}
 
 		}
