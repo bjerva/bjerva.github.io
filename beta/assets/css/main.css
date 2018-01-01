@@ -1481,6 +1481,7 @@
 			text-decoration: none;
 		}
 
+/*
 		@media screen and (max-width: 980px) {
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -1489,10 +1490,12 @@
 
 		}
 
+*/
 	h1 {
 		font-size: 1.75em;
 	}
 
+/*
 		@media screen and (max-width: 980px) {
 
 			h1 {
@@ -1508,11 +1511,13 @@
 			}
 
 		}
+		*/
 
 	h2 {
 		font-size: 1.35em;
 	}
 
+/*
 		@media screen and (max-width: 736px) {
 
 			h2 {
@@ -1520,6 +1525,7 @@
 			}
 
 		}
+		*/
 
 	h3 {
 		font-size: 1em;
