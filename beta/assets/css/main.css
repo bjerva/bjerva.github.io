@@ -2412,7 +2412,7 @@
 				outline: 0;
 			}
 
-			.thumbnails div #twitter {
+			#twitter {
 				border-bottom: none;
 				display: block;
 				width: 100%;
