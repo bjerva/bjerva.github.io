@@ -2415,7 +2415,19 @@
 			#twitter {
 				border-bottom: none;
 				display: block;
-				width: 80%;
+				width: 60%;
+				margin: 0 2em 0em 1em;
+				text-align: left;
+				border-radius: 4px;
+				box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0);
+				background-color: rgba(0, 0, 0, 0);
+				outline: 0;
+			}
+
+			#twitter2 {
+				border-bottom: none;
+				display: block;
+				width: 110%;
 				margin: 0 2em 0em 1em;
 				text-align: left;
 				border-radius: 4px;
