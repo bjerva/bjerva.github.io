@@ -314,7 +314,7 @@
 	.\-1u {
 		margin-left: 8.33333%;
 	}
-
+/*
 	@media screen and (max-width: 1680px) {
 
 		.row > * {
@@ -1390,6 +1390,7 @@
 
 	}
 
+*/
 /* Basic */
 
 	@-ms-viewport {
@@ -1400,6 +1401,7 @@
 		-ms-overflow-style: scrollbar;
 	}
 
+/*
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -1407,6 +1409,7 @@
 		}
 
 	}
+	*/
 
 	body {
 		background-color: #000;
@@ -2431,7 +2434,7 @@
 			.thumbnails > div > :last-child {
 				margin-bottom: 0;
 			}
-
+/*
 		@media screen and (max-width: 1280px) {
 
 			.thumbnails {
@@ -2477,6 +2480,7 @@
 				}
 
 		}
+		*/
 
 /* Poptrox
 
