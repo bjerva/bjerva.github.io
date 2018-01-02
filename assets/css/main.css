@@ -17,6 +17,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family: 'Source Sans Pro';
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2480,7 +2481,7 @@
 			padding-top: 1em;
 			font-weight: bold;
 		}
-			
+
 
 			@media screen and (max-width: 980px) {
 		  #twitter {
