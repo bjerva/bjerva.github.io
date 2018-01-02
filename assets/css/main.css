@@ -2470,16 +2470,17 @@
 			padding-right: 1em;
 			margin-right: 1em;
 		}
+
 		.thumbnails > ul{
 			padding-bottom: 1em;
+			margin-bottom: 1em;
 		}
+
 		.thumbnails > h2,h3 {
 			padding-top: 1em;
 			font-weight: bold;
 		}
-			.thumbnails > div > :last-child {
-				margin-bottom: 0;
-			}
+			
 
 			@media screen and (max-width: 980px) {
 		  #twitter {
