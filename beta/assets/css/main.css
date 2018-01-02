@@ -2479,20 +2479,20 @@
 				margin-bottom: 0;
 			}
 
-			@media screen and (max-width: 600px) {
-  #twitter {
-    visibility: hidden;
-    display: none;
-  }
-#twitter2 {
-visibility: hidden;
-display: none;
-}
-#twitter3 {
-visibility: hidden;
-display: none;
-}
-}
+			@media screen and (max-width: 980px) {
+		  #twitter {
+		    visibility: hidden;
+		    display: none;
+		  }
+			#twitter2 {
+			visibility: hidden;
+			display: none;
+			}
+			#twitter3 {
+			visibility: hidden;
+			display: none;
+			}
+			}
 /*
 		@media screen and (max-width: 1280px) {
 
