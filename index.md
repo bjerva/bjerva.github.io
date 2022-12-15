@@ -11,7 +11,7 @@ I did my PhD in Natural Language Processing at the <a href="http://www.rug.nl/">
 I also visited the <a href="http://www.ling.su.se/" id="su_ling">Department of Linguistics</a> at <a href="http://www.su.se/" id="su_b">Stockholm University</a> during most of the final year of my PhD.
 
 My research is characterised by a high focus on interdisciplinary interaction between linguistics and NLP.
-In 2022 I was awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Semper Ardens: Accelerate grant of 5 million DKK from the Carlsberg Foundation</a> which funds three PhD students and a three-year postdoc, thus enabling me to establish a research lab focussing on this interaction.
+In 2022 I was awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Semper Ardens: Accelerate grant of 5 million DKK from the Carlsberg Foundation</a> which funds three PhD students and a three-year postdoc, focussing on this interaction.
 For the past few years, I've investigated computational typology and answering typological research questions for this purpose, typically using deep learning techniques.
           
 I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenhavn">Software BSc. education</a>, where I focus on delivering high-quality teaching, with an approach emphasising elements of interactivity and connecting theory to practice. As a result, I was in 2020-2021 selected as Teacher of the Year at the Department of Computer Science at AAU.
