@@ -55,7 +55,6 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2022
-* Interviewed by DR 
 * I'm <a href="https://www.vacancies.aau.dk/show-vacancy/?vacancy=1183738">hiring three PhD students</a>, starting on 1 September 2022 
 * I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! 
 										
