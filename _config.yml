@@ -33,6 +33,8 @@ plugins:
 
 remote_theme: pages-themes/minimal@v0.2.0
 
+logo: me.jpg
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
