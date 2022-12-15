@@ -1,19 +1,20 @@
 ---
 layout: default
 ---
-<ul class="icons">
-							<li><a href="https://twitter.com/johannesbjerva" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en" class="ai style2 ai-google-scholar"><span class="label">Scholar</span></a></li>
-							<li><a href="http://github.com/bjerva" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-							<li><a href="http://www.linkedin.com/in/bjerva" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="http://www.researchgate.net/profile/Johannes_Bjerva/" class="ai style2 ai-researchgate-square"><span class="label">Researchgate</span></a></li>
-</ul>
-            
-
 
 # Research Profile
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+I'm an associate professor affiliated with the <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a> research group at the Department of Computer Science, Aalborg University (Campus Copenhagen).
+ Before this, I was a tenure-track assistant professor for just under a year in the same group.
+I also spent three years as a postdoctoral researcher in <a href="https://copenlu.github.io">CopeNLU</a>, one of the NLP groups at the <a href="https://di.ku.dk/english/research/machine-learning/">Machine Learning section</a> at the Department of Computer Science, University of Copenhagen, working with <a href="http://isabelleaugenstein.github.io/">Isabelle Augenstein</a> on multilingual low-resource learning and computational typology.
+I did my PhD in Natural Language Processing at the <a href="http://www.rug.nl/">University of Groningen</a> working within the <a href="http://pmb.let.rug.nl/">Parallel Meaning Bank</a> project supervised by <a href="http://www.rug.nl/staff/johan.bos/">Johan Bos</a>, and co-supervised by <a href="http://www.let.rug.nl/~bplank/">Barbara Plank</a>.
+I also visited the <a href="http://www.ling.su.se/" id="su_ling">Department of Linguistics</a> at <a href="http://www.su.se/" id="su_b">Stockholm University</a> during most of the final year of my PhD.
+
+My research is characterised by a high focus on interdisciplinary interaction between linguistics and NLP.
+In 2022 I was awarded a Semper Ardens: Accelerate grant of 5 million DKK from the Carlsberg Foundation which funds three PhD students and a three-year postdoc, thus enabling me to establish a research lab focussing on this interaction.
+For the past few years, I've investigated computational typology and answering typological research questions for this purpose, typically using deep learning techniques.
+          
+I focus on delivering high-quality teaching, and strive to be recognized by the students in this regard. As a result, I was in 2020-2021 selected as Teacher of the Year at the Department of Computer Science at AAU.
 
 # Academic Background
 
@@ -42,38 +43,16 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 	                <a href= "http://www.ling.su.se" id="su_ling_b"> Department of Linguistics,</a>
 	                <a href="http://www.su.se/" id="su_b">Stockholm University</a>, Sweden
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
-#### Header 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Links
+<ul class="icons">
+							<li><a href="https://twitter.com/johannesbjerva" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en" class="ai style2 ai-google-scholar"><span class="label">Scholar</span></a></li>
+							<li><a href="http://github.com/bjerva" class="icon style2 fa-github"><span class="label">Github</span></a></li>
+							<li><a href="http://www.linkedin.com/in/bjerva" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="http://www.researchgate.net/profile/Johannes_Bjerva/" class="ai style2 ai-researchgate-square"><span class="label">Researchgate</span></a></li>
+</ul>
+            
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
