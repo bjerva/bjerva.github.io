@@ -47,12 +47,73 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 
 
 ## Links
-<ul class="icons">
-							<li><a href="https://twitter.com/johannesbjerva" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en" class="ai style2 ai-google-scholar"><span class="label">Scholar</span></a></li>
-							<li><a href="http://github.com/bjerva" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-							<li><a href="http://www.linkedin.com/in/bjerva" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="http://www.researchgate.net/profile/Johannes_Bjerva/" class="ai style2 ai-researchgate-square"><span class="label">Researchgate</span></a></li>
-</ul>
-            
+* <a href="https://twitter.com/johannesbjerva">Twitter</a>
+* <a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en">Scholar</a>
+* <a href="http://github.com/bjerva">GitHub</a>
+* <a href="http://www.linkedin.com/in/bjerva">LinkedIn</a>
 
+## Activities
+
+### 2022
+	<li> Interviewed by DR </li>
+										<li> I'm <a href="https://www.vacancies.aau.dk/show-vacancy/?vacancy=1183738">hiring three PhD students</a>, starting on 1 September 2022 </li>
+										<li> I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! </li>
+										
+### 2021
+										<li> As of 1 November, I'm on paternity leave for 4,5 months :) </li>
+										<li> As of 1 July, I've been promoted to associate professor at AAU Copenhagen! </li>
+										<li> I gave a keynote talk at the SIGTYP 2021 workshop </li>
+										<li> I gave an invited talk at HHU Düsseldorf </li>
+										<li> I'm currently hosting a visit from <a href="https://aoncevay.github.io/">Arturo Oncevay</a> (PhD student, U. of Edinburgh), funded by a <a href="https://multi3generation.eu/">Multi3Generation</a> STSM.</li>
+										
+										<li> I'll be giving an invited talk at the Cambridge NLP Seminar Series, on 5 March </li>
+										<li> I'll be giving an invited talk at the AAU AI Seminar Series, on 25 March </li>
+										<li> Looking forward to meta-reviewing papers as Area Chair for <a href='https://sites.google.com/view/starsem2021/'>*SEM 2021</a> </li>
+										<li> Paper on computational typology with adversarial training accepted to EACL 2021!</li>
+										<li> I'll be a keynote speaker at <a href="https://sigtyp.github.io/ws2021.html">SigTyp 2021</a>, co-located with EACL 2021! </li>
+										
+### 2020
+										<li> Happy to have been invited as one of the area chairs for EACL 2021 </li>
+										<li> Our Shared Task description paper for SigTyp 2020 is now online! [<a id='sigtyp2020preprint' href="https://arxiv.org/pdf/2010.08246">Pre-print</a>] </li>
+										<li> Held a workshop for SSH scholars, as part of the <a href="https://dighumlab.org/dl/">DigHumLab's Digital Literacy</a> course <a href="https://docs.google.com/presentation/d/1cc8GeUlgg66WnhPDhFiPjm_EYbwM1B-tNYFuPIoej-M/edit?usp=sharing">[Presentation Slides]</a> </li>
+										<li> Paper on Unsupervised QA Evaluation with my previous MSc. student <a href="https://lukasmut.github.io/">Lukas Muttenthaler</a> accepted to BlackBoxNLP @ <a href="https://2020.emnlp.org/">EMNLP 2020</a>!</li>
+										<li> Two papers accepted to <a href="https://2020.emnlp.org/">EMNLP 2020</a>. Looking forward to share joint work with <a href="https://copenlu.github.io">CopeNLU</a> and <a href='https://www.megagon.ai/'>Megagon Labs</a> </li>
+										<li> Excited to begin a tenure-track assistant professorship at Aalborg University, Campus Copenhagen, from 15 August onward </li>
+										<li> I'm coordinating the <a href="https://sigtyp.github.io/">SIGTYP</a> <a href="https://sigtyp.github.io/st2020.html">shared task on computational typology</a> </li>
+										<li> Our <a id='aaai19preprint' href='https://arxiv.org/abs/1909.03464'>paper</a> on temporal data drift in NLP has been accepted to <a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020</a></li>
+
+
+### 2019
+										<li> Very excited to have a grant proposal (4,000,000 SEK) on Structured Multilinguality accepted by the <a href="https://www.vr.se/english/calls-and-decisions/grant-decisions/decisions/2019-07-04-natural-and-engineering-sciences.html">Swedish Research Council</a>. The project is lead by <a href="http://robos.org/">Robert Östling</a> at Stockolm University.</li>
+										<li> Visiting <a href='https://www.megagon.ai/'>Megagon Labs</a> (Mountain View, CA) for two weeks in October/November, and gave a talk on computational typology</li>
+										<li> Visited the <a href='https://www.uzh.ch/'>University of Zurich</a> and gave a talk on computational typology, in October</li>
+										<li> Our paper on transductive auxiliary task self-training has been accepted to <a href='https://sites.google.com/view/deeplo19/home'>DeepLo 2019</a> at EMNLP!</li>
+										<li> I was awarded 7,000 USD as part of the Google Cloud Platform research credits programme! </li>
+										<li> Our paper entitled "Uncovering Probabilistic Implications in Typological Knowledge Bases" has been accepted to <a href='https://acl2019.org/'>ACL 2019</a>!</li>
+										<li> Visited the <a href='https://www.waikato.ac.nz/'>University of Waikato</a> (New Zealand) and gave a talk on computational typology, in April</li>
+										<li> Our paper entitled "A Probabilistic Generative Model of Linguistic Typology" has been accepted to <a href='https://naacl2019.org/'>NAACL 2019</a>!</li>
+                    <li> Our paper on Language Representations has been accepted to the journal Computational Linguistics (June 2019 issue)!</li>
+										<li> I will be on a panel discussing AI in the context of the movie <i>Her</i>, both in February and March 2019.</li>
+
+### 2018
+										<li> I was asked to comment on AI Theory of Mind for a <a href='https://www.newscientist.com/article/2178388-ais-are-being-tested-to-see-how-well-they-understand-our-thoughts/'>New Scientist article</a>.</li>
+										<li> I was an external reviewer for the European Research Council (ERC - Advanced Grant - €2.5 million) </li>
+										<li> Short paper with <a href="http://stp.lingfil.uu.se/~miryam/index.html">Miryam de Lhoneux</a> accepted to EMNLP 2018! </li>
+										<li> I was a lab monitor at <a href='http://lxmls.it.pt/2018'>Lisbon Machine Learning School (LxMLS 2018)</a>, Lisbon, Portugal.</li>
+										<li> Presented work on computational typology at <a href='http://naacl2018.org/'>NAACL 2018</a>, New Orleans, LA. [<a id="naacl18" href="http://aclweb.org/anthology/N18-1083">Article</a>]</li>
+										<li> Long paper accepted to NAACL 2018! [<a id="naacl18" href="http://aclweb.org/anthology/N18-1083">Article</a>]</li>
+										<li> I spent two weeks as a visiting researcher at <a href='http://blogs.helsinki.fi/tiedeman/'>Jörg Tiedemann</a>'s NLP group (University of Helsinki, Finland)</li>
+										<li><a href='https://arxiv.org/abs/1711.05468'>Presented a paper</a> at <a href='http://blogs.helsinki.fi/language-technology/iwclul-2018/'>IWCLUL-2018</a> -- Helsinki, Finland [<a href='https://www.slideshare.net/JohannesBjerva/tracking-typological-traits-of-uralic-languages-in-distributed-language-representations-85860032'>Slides</a>]</li>
+
+### 2017
+										<li> I succesfully <a href="https://sites.google.com/view/bjerva-phd">defended my PhD thesis</a> at the University of Groningen!</li>
+										<li> I was awarded a Titan Xp GPU as part of the NVIDIA GPU Grant Program!</li>
+										<li> I am serving as Publicity Chair for <a href="https://sites.google.com/view/starsem2018">*SEM 2018</a>!</li>
+										<li> I attended the Google NLP Summit in Zürich, Switzerland </li>
+										<li> Presented a poster at the  <a href="http://www.cs.rochester.edu/~tetreaul/emnlp-bea12.html">BEA workshop</a> in Copenhagen </li>
+										<li> Started my postdoc at <a href="https://coastalcph.github.io/">CoAStaL NLP</a> </li>
+										<li> Submitted my <a href="http://hdl.handle.net/11370/73e67d8a-14b0-42b1-9dcf-292eab63539c">PhD thesis</a>! </li>
+										<li> I'm joining the <a href="https://coastalcph.github.io/">CoAStaL NLP group</a>, post-docing for <a href="http://isabelleaugenstein.github.io/">Isabelle Augenstein</a>!</li>
+										<li> Presented joint work with <a href="http://www.robos.org/">Robert Östling</a> at <a href="https://sites.google.com/view/conll-sigmorphon2017/home?authuser=0">CoNLL-SIGMORPHON 2017</a> in Vancouver, Canada [<a id="sigmorphon17" href="http://aclweb.org/anthology/K17-2012">Article</a>]</li>
+										<li> <b>Won best short paper</b> at <a href="http://nodalida2017.se/">NoDaLiDa 2017</a>! [<a id="nodalida_17_mtl" href="http://aclweb.org/anthology/W17-0225">Article</a>] </li>
+										<li> Presented two short papers at <a href="http://nodalida2017.se/">NoDaLiDa 2017</a> in Gothenburg, Sweden</li>
