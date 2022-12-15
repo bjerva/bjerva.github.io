@@ -55,29 +55,28 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2022
-	* Interviewed by DR 
-										* I'm <a href="https://www.vacancies.aau.dk/show-vacancy/?vacancy=1183738">hiring three PhD students</a>, starting on 1 September 2022 
-										* I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! 
+* Interviewed by DR 
+* I'm <a href="https://www.vacancies.aau.dk/show-vacancy/?vacancy=1183738">hiring three PhD students</a>, starting on 1 September 2022 
+* I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! 
 										
 ### 2021
-										* As of 1 November, I'm on paternity leave for 4,5 months :) 
-										* As of 1 July, I've been promoted to associate professor at AAU Copenhagen! 
-										* I gave a keynote talk at the SIGTYP 2021 workshop 
-										* I gave an invited talk at HHU Düsseldorf 
-										* I'm currently hosting a visit from <a href="https://aoncevay.github.io/">Arturo Oncevay</a> (PhD student, U. of Edinburgh), funded by a <a href="https://multi3generation.eu/">Multi3Generation</a> STSM.
-										
-										* I'll be giving an invited talk at the Cambridge NLP Seminar Series, on 5 March 
-										* I'll be giving an invited talk at the AAU AI Seminar Series, on 25 March 
-										* Looking forward to meta-reviewing papers as Area Chair for <a href='https://sites.google.com/view/starsem2021/'>*SEM 2021</a> 
-										* Paper on computational typology with adversarial training accepted to EACL 2021!
-										* I'll be a keynote speaker at <a href="https://sigtyp.github.io/ws2021.html">SigTyp 2021</a>, co-located with EACL 2021! 
+* As of 1 November, I'm on paternity leave for 4,5 months :) 
+* As of 1 July, I've been promoted to associate professor at AAU Copenhagen! 
+* I gave a keynote talk at the SIGTYP 2021 workshop 
+* I gave an invited talk at HHU Düsseldorf 
+* I'm currently hosting a visit from <a href="https://aoncevay.github.io/">Arturo Oncevay</a> (PhD student, U. of Edinburgh), funded by a <a href="https://multi3generation.eu/">Multi3Generation</a> STSM.
+* I'll be giving an invited talk at the Cambridge NLP Seminar Series, on 5 March 
+* I'll be giving an invited talk at the AAU AI Seminar Series, on 25 March 
+* Looking forward to meta-reviewing papers as Area Chair for <a href='https://sites.google.com/view/starsem2021/'>*SEM 2021</a> 
+* Paper on computational typology with adversarial training accepted to EACL 2021!
+* I'll be a keynote speaker at <a href="https://sigtyp.github.io/ws2021.html">SigTyp 2021</a>, co-located with EACL 2021! 
 										
 ### 2020
-										* Happy to have been invited as one of the area chairs for EACL 2021 
-										* Our Shared Task description paper for SigTyp 2020 is now online! [<a id='sigtyp2020preprint' href="https://arxiv.org/pdf/2010.08246">Pre-print</a>] 
-										* Held a workshop for SSH scholars, as part of the <a href="https://dighumlab.org/dl/">DigHumLab's Digital Literacy</a> course <a href="https://docs.google.com/presentation/d/1cc8GeUlgg66WnhPDhFiPjm_EYbwM1B-tNYFuPIoej-M/edit?usp=sharing">[Presentation Slides]</a> 
-										* Paper on Unsupervised QA Evaluation with my previous MSc. student <a href="https://lukasmut.github.io/">Lukas Muttenthaler</a> accepted to BlackBoxNLP @ <a href="https://2020.emnlp.org/">EMNLP 2020</a>!
-										* Two papers accepted to <a href="https://2020.emnlp.org/">EMNLP 2020</a>. Looking forward to share joint work with <a href="https://copenlu.github.io">CopeNLU</a> and <a href='https://www.megagon.ai/'>Megagon Labs</a> 
+* Happy to have been invited as one of the area chairs for EACL 2021 
+* Our Shared Task description paper for SigTyp 2020 is now online! [<a id='sigtyp2020preprint' href="https://arxiv.org/pdf/2010.08246">Pre-print</a>] 
+* Held a workshop for SSH scholars, as part of the <a href="https://dighumlab.org/dl/">DigHumLab's Digital Literacy</a> course <a href="https://docs.google.com/presentation/d/1cc8GeUlgg66WnhPDhFiPjm_EYbwM1B-tNYFuPIoej-M/edit?usp=sharing">[Presentation Slides]</a> 
+* Paper on Unsupervised QA Evaluation with my previous MSc. student <a href="https://lukasmut.github.io/">Lukas Muttenthaler</a> accepted to BlackBoxNLP @ <a href="https://2020.emnlp.org/">EMNLP 2020</a>!
+* Two papers accepted to <a href="https://2020.emnlp.org/">EMNLP 2020</a>. Looking forward to share joint work with <a href="https://copenlu.github.io">CopeNLU</a> and <a href='https://www.megagon.ai/'>Megagon Labs</a> 
 										* Excited to begin a tenure-track assistant professorship at Aalborg University, Campus Copenhagen, from 15 August onward 
 										* I'm coordinating the <a href="https://sigtyp.github.io/">SIGTYP</a> <a href="https://sigtyp.github.io/st2020.html">shared task on computational typology</a> 
 										* Our <a id='aaai19preprint' href='https://arxiv.org/abs/1909.03464'>paper</a> on temporal data drift in NLP has been accepted to <a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020</a>
