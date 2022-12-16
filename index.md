@@ -60,7 +60,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 * I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Semper Ardens: Accelerate grant / Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! 
 										
 ### 2021
-* As of 1 November, I'm on paternity leave for 4,5 months :) 
+* As of 1 November, I'm on paternity leave for 4.5 months :) 
 * As of 1 July, I've been promoted to associate professor at AAU Copenhagen! 
 * I gave a keynote talk at the SIGTYP 2021 workshop 
 * I gave an invited talk at HHU Düsseldorf 
