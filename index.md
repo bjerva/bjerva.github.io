@@ -55,6 +55,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2022
+* I appeared in the Danish national media (DR) as an NLP expert, regarding <a href="https://www.dr.dk/nyheder/viden/teknologi/gymnasieelever-oensker-regler-brugen-af-banebrydende-chatbot-man-kan-bruge">ChatNLP and its use in education</a>. 
 * The entire project team (3 PhD students + 1 postdoc) for the Carlsberg project have started
 * <s>I'm <a href="https://www.vacancies.aau.dk/show-vacancy/?vacancy=1183738">hiring three PhD students</a>, starting on 1 September 2022</s>
 * I've been awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Semper Ardens: Accelerate grant / Carlsberg Foundation Young Researcher Fellowship</a> of 5 million DKK! 
