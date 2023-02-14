@@ -12,7 +12,7 @@ I spent most of the final year of my PhD visiting the <a href="http://www.ling.s
 
 My research is characterised by a high focus on interdisciplinary interaction between linguistics and NLP.
 In 2022 I was awarded a <a href="https://www.carlsbergfondet.dk/en/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0454_Johannes-Bjerva">Semper Ardens: Accelerate grant of 5 million DKK from the Carlsberg Foundation</a> which funds three PhD students and a three-year postdoc, focussing on this interaction.
-For the past few years, I've investigated computational typology and answering typological research questions for this purpose, typically using deep learning techniques. Most recently I've been exploring the possibilities and risks in using Large Language Models (LLMs, e.g. ChatGPT and similar technologies) in the education system.
+Most recently I've been exploring the possibilities and risks in using Large Language Models (LLMs, e.g. ChatGPT and similar technologies) in the education system.
           
 I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenhavn">Software BSc. education</a>, where I focus on delivering high-quality teaching, with an approach emphasising elements of interactivity and connecting theory to practice. As a result, I was in 2020-2021 selected by our students as Teacher of the Year at the Department of Computer Science at AAU.
 
