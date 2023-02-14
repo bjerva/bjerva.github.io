@@ -56,7 +56,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 
 ### 2023
 * We got seed funding for a project entitled <a href= "https://www.ai.aau.dk/collaboration/Comparing+Multilingual+Discourse+on+Migration+Using+Natural+Language+Processing/">Comparing Multilingual Discourse on Migration Using NLP</a>. Very excited to start a new collaboration with <a href="https://www.sol.lu.se/en/person/AnamariaDutceacSegesten/">Anamaria Dutceac Segesten</a> and <a href="https://vbn.aau.dk/da/persons/137409">Kristian Gade Kjelmann</a>!
-* I was interviewed for two articles in <a href="[https://vbn.aau.dk/da/clippings/ny-chatbot-udfordrer-gymnasier-det-kommer-til-at-%C3%A6ndre-fundamenta](https://gymnasieskolen.dk/articles/ny-chatbot-udfordrer-gymnasier-det-kommer-til-at-aendre-fundamentalt-paa-den-laering-der-er-i-undervisningen/)">Gymnasieskolen.dk</a>, broadly on the topic of ChatGPT in High School Education in Denmark.
+* I was interviewed for two articles in <a href="https://gymnasieskolen.dk/articles/ny-chatbot-udfordrer-gymnasier-det-kommer-til-at-aendre-fundamentalt-paa-den-laering-der-er-i-undervisningen/">Gymnasieskolen.dk</a>, broadly on the topic of ChatGPT in High School Education in Denmark.
 * I gave a webinar for <a href="https://egn.com/dk/events/chatgpt-has-taken-the-internet-by-storm/">EGN on possibilities and risks in integrating ChatGPT</a> and similar technologies, with 1,000 attendees.
 
 ### 2022
