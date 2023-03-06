@@ -31,7 +31,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 * 2013-2017 | <b>PhD, Natural Language Processing</b>,
 	                <a href="http://www.rug.nl/research/clcg/">CLCG,</a>
 	                <a href="http://www.rug.nl/">University of Groningen</a>, The Netherlands
--- Thesis: <a href="http://hdl.handle.net/11370/73e67d8a-14b0-42b1-9dcf-292eab63539c"><i>One Model to Rule them all</a> -- Multitask and Multilingual Modelling for Lexical Analysis</i>
+-- Thesis: <a href="http://hdl.handle.net/11370/73e67d8a-14b0-42b1-9dcf-292eab63539c"><i>One Model to Rule them all -- Multitask and Multilingual Modelling for Lexical Analysis</i></a>
 
 
 * 2012-2013 | <b>M.A. Computational Linguistics</b>
