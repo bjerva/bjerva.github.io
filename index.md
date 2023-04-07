@@ -55,6 +55,8 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2023
+* I was live on TV2 News discussing ChatGPT in education and exams.
+* I was interviewed by <a href="https://borsen.dk/nyheder/samfund/den-hallucinerer-og-diskriminerer-og-nu-advarer-danske-forskere-om-chat-gpt">Børsen about the impact of Large Language Models on low-resource language communities</a>.
 * I was interviewed for Danish national media (DR.dk and <a href="https://www.dr.dk/drtv/se/tv-avisen_-gerningsmaend-kan-vaere-gaaet-fri_372252"> the evening news (~20:00 in this clip)</a>) regarding ChatGPT - <a href="https://www.dr.dk/nyheder/viden/teknologi/rejsebureau-bruger-kunstig-intelligens-til-skrive-dine-rejseguides">(1) On usage of ChatGPT to optimize writing processes</a>, and <a href="https://www.dr.dk/nyheder/viden/teknologi/slut-med-google-soegninger-nye-chatbotter-kan-aendre-maaden-vi-finder">(2) on ChatGPT in Web Search.</a>
 * I featured in <a href="https://open.spotify.com/episode/2wanEF8GH5pZeQ5teSFDrv?si=2dd2159e1e5340ec">an episode of the podcast "Lærerværelset"</a>, discussing Language Models such as ChatGPT in the context of High School Education (in Danish).
 * We got seed funding for a project entitled <a href= "https://www.ai.aau.dk/collaboration/Comparing+Multilingual+Discourse+on+Migration+Using+Natural+Language+Processing/">Comparing Multilingual Discourse on Migration Using NLP</a>. Very excited to start a new collaboration with <a href="https://www.sol.lu.se/en/person/AnamariaDutceacSegesten/">Anamaria Dutceac Segesten</a> and <a href="https://vbn.aau.dk/da/persons/137409">Kristian Gade Kjelmann</a>!
