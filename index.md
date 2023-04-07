@@ -56,6 +56,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 
 ### 2023
 * I was live on TV2 News discussing ChatGPT in education and exams.
+* I was interviewed by TV2 on <a href="https://nyheder.tv2.dk/politik/2023-04-07-df-vil-slukke-internettet-under-eksamener-eller-gaa-tilbage-til-pen-og-papir">ChatGPT in Exams</a>
 * I was interviewed by <a href="https://borsen.dk/nyheder/samfund/den-hallucinerer-og-diskriminerer-og-nu-advarer-danske-forskere-om-chat-gpt">Børsen about the impact of Large Language Models on low-resource language communities</a>.
 * I was interviewed for Danish national media (DR.dk and <a href="https://www.dr.dk/drtv/se/tv-avisen_-gerningsmaend-kan-vaere-gaaet-fri_372252"> the evening news (~20:00 in this clip)</a>) regarding ChatGPT - <a href="https://www.dr.dk/nyheder/viden/teknologi/rejsebureau-bruger-kunstig-intelligens-til-skrive-dine-rejseguides">(1) On usage of ChatGPT to optimize writing processes</a>, and <a href="https://www.dr.dk/nyheder/viden/teknologi/slut-med-google-soegninger-nye-chatbotter-kan-aendre-maaden-vi-finder">(2) on ChatGPT in Web Search.</a>
 * I featured in <a href="https://open.spotify.com/episode/2wanEF8GH5pZeQ5teSFDrv?si=2dd2159e1e5340ec">an episode of the podcast "Lærerværelset"</a>, discussing Language Models such as ChatGPT in the context of High School Education (in Danish).
