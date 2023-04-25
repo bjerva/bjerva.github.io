@@ -5,8 +5,8 @@ layout: default
 # Research Profile
 
 I'm an Associate Professor affiliated with the <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a> research group at the Department of Computer Science, Aalborg University (Campus Copenhagen).
-I'm currently the team lead for the Copenhagen branch of the Department of Computer Science.
  Before this, I was a tenure-track assistant professor for just under a year in the same group.
+I'm currently the team lead for the Copenhagen branch of the Department of Computer Science.
 I spent three years as a postdoctoral researcher working with <a href="http://isabelleaugenstein.github.io/">Isabelle Augenstein</a> in <a href="https://copenlu.github.io">CopeNLU</a>, one of the NLP groups at the <a href="https://di.ku.dk/english/research/machine-learning/">Machine Learning section</a> at the Department of Computer Science, University of Copenhagen, on multilingual low-resource learning and computational typology.
 I did my PhD in Natural Language Processing at the <a href="http://www.rug.nl/">University of Groningen</a> working within the <a href="http://pmb.let.rug.nl/">Parallel Meaning Bank</a> project supervised by <a href="http://www.rug.nl/staff/johan.bos/">Johan Bos</a>, and co-supervised by <a href="http://www.let.rug.nl/~bplank/">Barbara Plank</a>.
 I spent most of the final year of my PhD visiting the <a href="http://www.ling.su.se/" id="su_ling">Department of Linguistics</a> at <a href="http://www.su.se/" id="su_b">Stockholm University</a>.
