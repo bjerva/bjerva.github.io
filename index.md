@@ -131,3 +131,14 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 * Presented joint work with <a href="http://www.robos.org/">Robert Östling</a> at <a href="https://sites.google.com/view/conll-sigmorphon2017/home?authuser=0">CoNLL-SIGMORPHON 2017</a> in Vancouver, Canada [<a id="sigmorphon17" href="http://aclweb.org/anthology/K17-2012">Article</a>]
 * <b>Won best short paper</b> at <a href="http://nodalida2017.se/">NoDaLiDa 2017</a>! [<a id="nodalida_17_mtl" href="http://aclweb.org/anthology/W17-0225">Article</a>] 
 * Presented two short papers at <a href="http://nodalida2017.se/">NoDaLiDa 2017</a> in Gothenburg, Sweden
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TY0KLMX3ZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TY0KLMX3ZV');
+</script>
