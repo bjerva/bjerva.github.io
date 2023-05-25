@@ -6,7 +6,7 @@ layout: default
 
 I'm an Associate Professor affiliated with the <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a> research group at the Department of Computer Science, Aalborg University (Campus Copenhagen).
  Before this, I was a tenure-track assistant professor for just under a year in the same group.
-I'm currently the team lead for the Copenhagen branch of the Department of Computer Science.
+I'm currently the team lead for the Copenhagen branch of the Department of Computer Science, and a member of <i><a href="http://www.youngacademy.dk/">Det Unge Akademi</a></i> (the Young Royal Danish Academy of Sciences and Letters).
 I spent three years as a postdoctoral researcher working with <a href="http://isabelleaugenstein.github.io/">Isabelle Augenstein</a> in <a href="https://copenlu.github.io">CopeNLU</a>, one of the NLP groups at the Department of Computer Science, University of Copenhagen.
 I did my PhD in Natural Language Processing at the <a href="http://www.rug.nl/">University of Groningen</a> working within the <a href="http://pmb.let.rug.nl/">Parallel Meaning Bank</a> project supervised by <a href="http://www.rug.nl/staff/johan.bos/">Johan Bos</a>, and co-supervised by <a href="http://www.let.rug.nl/~bplank/">Barbara Plank</a>.
 I spent most of the final year of my PhD visiting the <a href="http://www.ling.su.se/" id="su_ling">Department of Linguistics</a> at <a href="http://www.su.se/" id="su_b">Stockholm University</a>.
@@ -56,6 +56,7 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2023
+* I've been admitted to <i><a href="http://www.youngacademy.dk/">Det Unge Akademi</a></i> (the Young Royal Danish Academy of Sciences and Letters).
 * I've been appointed team lead of the Copenhagen branch of the Department of Computer Science, AAU.
 * I'll be at <a href="https://www.nodalida2023.fo/">NoDaLiDa</a> and <a href="https://2023.eacl.org/">EACL</a>, where some of the TypNLP project's first publications by <a href="https://sigtyp.github.io/workshops/2023/sigtyp/papers/16_gradual_language_model_adaptat.pdf">Marcell Fekete</a> and <a href="https://openreview.net/pdf?id=Hn10RDGms3p">Yiyi Chen</a> will be presented!
 * I was live on TV2 News discussing ChatGPT in education and exams.
