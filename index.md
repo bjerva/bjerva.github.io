@@ -2,9 +2,12 @@
 layout: default
 ---
 
+# I do not update this site
+For up-to-date information, please see <a href="https://vbn.aau.dk/en/persons/jbjerva">my official AAU website</a>: https://vbn.aau.dk/en/persons/jbjerva
+
 # Research Profile
 
-I'm an Associate Professor affiliated with the <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a> research group at the Department of Computer Science, Aalborg University (Campus Copenhagen).
+I'm a Full Professor affiliated with the <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a> research group at the Department of Computer Science, Aalborg University (Campus Copenhagen).
  Before this, I was a tenure-track assistant professor for just under a year in the same group.
 I'm currently the team lead for the Copenhagen branch of the Department of Computer Science, and a member of <i><a href="http://www.youngacademy.dk/">Det Unge Akademi</a></i> (the Young Royal Danish Academy of Sciences and Letters).
 I spent three years as a postdoctoral researcher working with <a href="http://isabelleaugenstein.github.io/">Isabelle Augenstein</a> in <a href="https://copenlu.github.io">CopeNLU</a>, one of the NLP groups at the Department of Computer Science, University of Copenhagen.
@@ -18,8 +21,10 @@ Most recently I've been exploring the possibilities and risks in using Large Lan
 I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenhavn">Software BSc. education</a>, where I focus on delivering high-quality teaching, with an approach emphasising elements of interactivity and connecting theory to practice. As a result, I was in 2020-2021 selected by our students as Teacher of the Year at the Department of Computer Science at AAU.
 
 # Academic Background
-
-* 2021-     | <b>Associate Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
+* 2024-     | <b>Associate Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
+								<a href="https://www.cs.aau.dk/">Department of Computer Science</a>, <a href="https://www.en.cph.aau.dk/">Aalborg University (Campus Copenhagen)</a>, Denmark
+  
+* 2021-2024     | <b>Associate Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
 								<a href="https://www.cs.aau.dk/">Department of Computer Science</a>, <a href="https://www.en.cph.aau.dk/">Aalborg University (Campus Copenhagen)</a>, Denmark
 
 * 2020-2021     | <b>Assistant Professor (Tenure-Track)</b>, <a href="https://www.cs.aau.dk/research/Database-and-Web-Technologies/">Database and Web-technologies (DW)</a>,
