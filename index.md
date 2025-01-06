@@ -3,7 +3,8 @@ layout: default
 ---
 
 # I do not update this site
-For up-to-date information, please see <a href="https://vbn.aau.dk/en/persons/jbjerva">my official AAU website</a>: https://vbn.aau.dk/en/persons/jbjerva
+For up-to-date information, please see <a href="https://vbn.aau.dk/en/persons/jbjerva">my official AAU website</a>: 
+<a href="https://vbn.aau.dk/en/persons/jbjerva">https://vbn.aau.dk/en/persons/jbjerva</a>
 
 # Research Profile
 
@@ -61,6 +62,8 @@ I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenh
 ## Activities
 
 ### 2023
+* I stopped updating this site - for up-to-date information, please see <a href="https://vbn.aau.dk/en/persons/jbjerva">my official AAU website</a>: 
+<a href="https://vbn.aau.dk/en/persons/jbjerva">https://vbn.aau.dk/en/persons/jbjerva</a>
 * I've been admitted to <i><a href="http://www.youngacademy.dk/">Det Unge Akademi</a></i> (the Young Royal Danish Academy of Sciences and Letters).
 * I've been appointed team lead of the Copenhagen branch of the Department of Computer Science, AAU.
 * I'll be at <a href="https://www.nodalida2023.fo/">NoDaLiDa</a> and <a href="https://2023.eacl.org/">EACL</a>, where some of the TypNLP project's first publications by <a href="https://sigtyp.github.io/workshops/2023/sigtyp/papers/16_gradual_language_model_adaptat.pdf">Marcell Fekete</a> and <a href="https://openreview.net/pdf?id=Hn10RDGms3p">Yiyi Chen</a> will be presented!
