@@ -21,7 +21,7 @@ Most recently I've been exploring the possibilities and risks in using Large Lan
 I teach on the <a href="https://www.aau.dk/uddannelser/bachelor/software-koebenhavn">Software BSc. education</a>, where I focus on delivering high-quality teaching, with an approach emphasising elements of interactivity and connecting theory to practice. As a result, I was in 2020-2021 selected by our students as Teacher of the Year at the Department of Computer Science at AAU.
 
 # Academic Background
-* 2024-     | <b>Associate Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
+* 2024-     | <b>Full Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
 								<a href="https://www.cs.aau.dk/">Department of Computer Science</a>, <a href="https://www.en.cph.aau.dk/">Aalborg University (Campus Copenhagen)</a>, Denmark
   
 * 2021-2024     | <b>Associate Professor</b>, <a href="https://www.cs.aau.dk/research/Data-Knowledge-and-Web-Engineering/">Data, Knowledge, and Web Engineering (DKW)</a>,
