@@ -1,0 +1,69 @@
+- year: 2026
+  title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
+  authors: "Esther Ploeger, Wessel Poelman, Andreas Holck Høeg-Petersen, Anders Schlichtkrull, Miryam de Lhoneux, and Johannes Bjerva"
+  venue: "Computational Linguistics"
+  theme: "Multilingual NLP"
+  url: "https://aclanthology.org/2026.cl-1.7/"
+
+- year: 2026
+  title: "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP"
+  authors: "Kushal Tatariya, Artur Kulmizev, Wessel Poelman, Esther Ploeger, Marcel Bollmann, Johannes Bjerva, Jiaming Luo, Heather Lent, and Miryam de Lhoneux"
+  venue: "ACL 2026"
+  theme: "Multilingual NLP"
+  url: "https://aclanthology.org/people/johannes-bjerva/"
+
+- year: 2025
+  title: "NLP Security and Ethics, in the Wild"
+  authors: "Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva"
+  venue: "Transactions of the ACL"
+  theme: "Security & Safety"
+  url: "https://aclanthology.org/2025.tacl-1.37/"
+
+- year: 2025
+  title: "ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation"
+  authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
+  venue: "ACL 2025"
+  theme: "Security & Safety"
+  url: "https://aclanthology.org/2025.acl-long.1189/"
+
+- year: 2024
+  title: "Text Embedding Inversion Security for Multilingual Language Models"
+  authors: "Yiyi Chen, Heather Lent, and Johannes Bjerva"
+  venue: "ACL 2024"
+  theme: "Security & Safety"
+  url: "https://aclanthology.org/2024.acl-long.423/"
+
+- year: 2024
+  title: "What is ‘Typological Diversity’ in NLP?"
+  authors: "Esther Ploeger, Wessel Poelman, Miryam de Lhoneux, and Johannes Bjerva"
+  venue: "EMNLP 2024"
+  theme: "Multilingual NLP"
+  url: "https://aclanthology.org/2024.emnlp-main.331/"
+
+- year: 2024
+  title: "The Role of Typological Feature Prediction in NLP and LLM Evaluation"
+  authors: "Johannes Bjerva"
+  venue: "Computational Linguistics"
+  theme: "Linguistics & Semantics"
+  url: "https://doi.org/10.1162/coli_a_00498"
+
+- year: 2021
+  title: "Does Typological Blinding Impede Cross-Lingual Sharing?"
+  authors: "Johannes Bjerva and Isabelle Augenstein"
+  venue: "EACL 2021"
+  theme: "Multilingual NLP"
+  url: "https://aclanthology.org/2021.eacl-main.38/"
+
+- year: 2019
+  title: "A Probabilistic Generative Model of Linguistic Typology"
+  authors: "Johannes Bjerva, Yova Kementchedjhieva, Ryan Cotterell, and Isabelle Augenstein"
+  venue: "NAACL 2019"
+  theme: "Linguistics & Semantics"
+  url: "https://aclanthology.org/N19-1156/"
+
+- year: 2018
+  title: "From Phonology to Syntax: Unsupervised Linguistic Typology at Different Levels with Language Embeddings"
+  authors: "Johannes Bjerva and Isabelle Augenstein"
+  venue: "NAACL 2018"
+  theme: "Linguistics & Semantics"
+  url: "https://aclanthology.org/N18-1083/"
