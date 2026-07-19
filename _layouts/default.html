@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17324d">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="author" content="Johannes Bjerva">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/images/Johannes%20Bjerva_a%20(002).jpg' | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Johannes Bjerva, home">
+          <span class="brand-mark" aria-hidden="true">JB</span>
+          <span>Johannes Bjerva</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/research/' | relative_url }}" {% if page.section == 'research' %}aria-current="page"{% endif %}>Research</a>
+          <a href="{{ '/publications/' | relative_url }}" {% if page.section == 'publications' %}aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/group/' | relative_url }}" {% if page.section == 'group' %}aria-current="page"{% endif %}>Group</a>
+          <a href="{{ '/teaching/' | relative_url }}" {% if page.section == 'teaching' %}aria-current="page"{% endif %}>Teaching</a>
+          <a href="{{ '/service/' | relative_url }}" {% if page.section == 'service' %}aria-current="page"{% endif %}>Service</a>
+          <a href="{{ '/cv/' | relative_url }}" {% if page.section == 'cv' %}aria-current="page"{% endif %}>CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">{{ content }}</main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <p class="footer-name">Johannes Bjerva</p>
+          <p>Professor of Natural Language Processing<br>Aalborg University · Copenhagen</p>
+        </div>
+        <nav class="footer-links" aria-label="External profiles">
+          <a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en">Google Scholar</a>
+          <a href="https://aclanthology.org/people/johannes-bjerva/">ACL Anthology</a>
+          <a href="https://orcid.org/0000-0002-9512-0739">ORCID</a>
+          <a href="https://github.com/bjerva">GitHub</a>
+          <a href="https://www.linkedin.com/in/bjerva">LinkedIn</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="mailto:jbjerva@cs.aau.dk">jbjerva@cs.aau.dk</a>
+          <p>A.C. Meyers Vænge 15<br>2450 Copenhagen SV, Denmark</p>
+        </div>
+      </div>
+      <div class="shell footer-base">
+        <span>© {{ 'now' | date: '%Y' }} Johannes Bjerva</span>
+        <span>Last updated July 2026</span>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  </body>
+</html>
