@@ -18,7 +18,7 @@ body_class: home
       <ul class="role-list" aria-label="Current roles">
         <li>Professor of NLP, Aalborg University</li>
         <li>Head of the Copenhagen Section, Department of Computer Science</li>
-        <li>Member of the Young Academy of Denmark</li>
+        <li>Member of ELLIS</li>
       </ul>
     </div>
     <div class="portrait-wrap reveal delay-1">
