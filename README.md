@@ -10,3 +10,5 @@ Personal academic website for Johannes Bjerva, built with Jekyll and hosted on G
 - Core page copy lives in the corresponding root-level HTML file.
 
 The site intentionally keeps only selected publications and highlights. Google Scholar, ACL Anthology, and the AAU Research Portal remain the sources for complete records.
+
+Only officially confirmed courses and public research descriptions should be included.
