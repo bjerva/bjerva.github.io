@@ -1,0 +1,73 @@
+---
+layout: default
+title: Research
+section: research
+description: Johannes Bjerva's research in language-model security, multilingual NLP, linguistic semantics, and reliable AI systems.
+permalink: /research/
+---
+
+<header class="page-hero">
+  <div class="shell page-hero-grid">
+    <div><p class="eyebrow">Research</p><h1>Language as a foundation for trustworthy AI.</h1></div>
+    <p class="page-lead">My research asks how linguistic structure can help us understand—and improve—the behaviour of modern AI systems. It spans security, multilinguality, semantics, and real-world use.</p>
+  </div>
+</header>
+
+<section class="section topic-section" id="security">
+  <div class="shell topic-grid">
+    <div class="topic-label"><span>01</span><p>Language-model security</p></div>
+    <div class="topic-copy">
+      <h2>Security failures leave linguistic traces.</h2>
+      <p class="large-copy">Language models can expose sensitive information, reproduce poisoned data, or generate text designed to evade scrutiny. I investigate these risks through the structure of language itself.</p>
+      <div class="question-grid">
+        <div><h3>Information leakage</h3><p>When can embeddings or model outputs be inverted to recover sensitive source text, and how do these risks vary across languages?</p></div>
+        <div><h3>Poisoning and manipulation</h3><p>Can syntax, morphology, semantics, or discourse reveal when training data or retrieved information has been maliciously altered?</p></div>
+        <div><h3>Evaluation in practice</h3><p>How should security and ethics be evaluated under real deployment conditions rather than only through benchmark averages?</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section topic-section section-tint" id="multilingual">
+  <div class="shell topic-grid">
+    <div class="topic-label"><span>02</span><p>Multilingual NLP</p></div>
+    <div class="topic-copy">
+      <h2>Multilingual does not automatically mean inclusive.</h2>
+      <p class="large-copy">Most language technology still serves a narrow and unrepresentative subset of the world's languages. My work uses linguistic typology to build better models, datasets, and evaluation practices for multilingual NLP.</p>
+      <div class="question-grid">
+        <div><h3>Typological grounding</h3><p>What do language representations learn about phonology, morphology, syntax, and semantics—and when does that knowledge support transfer?</p></div>
+        <div><h3>Representative evaluation</h3><p>Which language samples support defensible claims about multilingual generalisation, and what does meaningful diversity require?</p></div>
+        <div><h3>Low-resource languages</h3><p>How can data quality, targeted adaptation, and linguistic knowledge improve outcomes where digital resources are scarce?</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section topic-section" id="semantics">
+  <div class="shell topic-grid">
+    <div class="topic-label"><span>03</span><p>Semantics and AI safety</p></div>
+    <div class="topic-copy">
+      <h2>Reliable systems must keep track of what information means.</h2>
+      <p class="large-copy">Modern AI systems retrieve information, call tools, write to memory, translate, and communicate across agents. I study whether they preserve attributed claims, implications, uncertainty, and context across those transformations.</p>
+      <div class="question-grid">
+        <div><h3>Meaning preservation</h3><p>Which semantic commitments survive summarisation, translation, memory, and delegation—and which are silently distorted?</p></div>
+        <div><h3>Interaction traces</h3><p>Can attributed traces reveal where a system first introduced an error and how that error propagated?</p></div>
+        <div><h3>Formal foundations</h3><p>How can insights from formal and computational semantics give us sharper definitions, diagnostics, and guarantees?</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-navy" id="projects">
+  <div class="shell split-heading inverse"><div><p class="eyebrow">Funded research</p><h2>Projects and programmes</h2></div><p>Selected externally and institutionally funded research. Dates and funding are stated at programme level.</p></div>
+  <div class="shell project-list">
+    {% for project in site.data.projects %}
+      <article class="project-row">
+        <div><span class="tag">{{ project.theme }}</span><p class="project-period">{{ project.period }}</p></div>
+        <div><h3>{{ project.title | escape }}</h3><p class="project-subtitle">{{ project.subtitle | escape }}</p></div>
+        <div><p>{{ project.description | escape }}</p><p class="project-funder">{{ project.funder | escape }}{% if project.amount %} · {{ project.amount | escape }}{% endif %}</p></div>
+        <a href="{{ project.url }}" aria-label="Read more about {{ project.title | escape }}">↗</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
