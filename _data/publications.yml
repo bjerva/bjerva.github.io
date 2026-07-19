@@ -10,42 +10,42 @@
   authors: "Kushal Tatariya, Artur Kulmizev, Wessel Poelman, Esther Ploeger, Marcel Bollmann, Johannes Bjerva, Jiaming Luo, Heather Lent, and Miryam de Lhoneux"
   venue: "ACL 2026"
   theme: "Multilingual NLP"
-  url: "https://aclanthology.org/people/johannes-bjerva/"
+  url: "https://aclanthology.org/2026.acl-long.1373/"
 
 - year: 2025
   title: "NLP Security and Ethics, in the Wild"
   authors: "Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva"
   venue: "Transactions of the ACL"
   theme: "Security & Safety"
-  url: "https://aclanthology.org/2025.tacl-1.37/"
+  url: "https://aclanthology.org/2025.tacl-1.33/"
 
 - year: 2025
   title: "ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
   venue: "ACL 2025"
   theme: "Security & Safety"
-  url: "https://aclanthology.org/2025.acl-long.1189/"
+  url: "https://aclanthology.org/2025.acl-long.1185/"
 
 - year: 2024
   title: "Text Embedding Inversion Security for Multilingual Language Models"
   authors: "Yiyi Chen, Heather Lent, and Johannes Bjerva"
   venue: "ACL 2024"
   theme: "Security & Safety"
-  url: "https://aclanthology.org/2024.acl-long.423/"
+  url: "https://aclanthology.org/2024.acl-long.422/"
 
 - year: 2024
-  title: "What is ‘Typological Diversity’ in NLP?"
+  title: "What is “Typological Diversity” in NLP?"
   authors: "Esther Ploeger, Wessel Poelman, Miryam de Lhoneux, and Johannes Bjerva"
   venue: "EMNLP 2024"
   theme: "Multilingual NLP"
-  url: "https://aclanthology.org/2024.emnlp-main.331/"
+  url: "https://aclanthology.org/2024.emnlp-main.326/"
 
 - year: 2024
-  title: "The Role of Typological Feature Prediction in NLP and LLM Evaluation"
+  title: "The Role of Typological Feature Prediction in NLP and Linguistics"
   authors: "Johannes Bjerva"
   venue: "Computational Linguistics"
   theme: "Linguistics & Semantics"
-  url: "https://doi.org/10.1162/coli_a_00498"
+  url: "https://aclanthology.org/2024.cl-2.8/"
 
 - year: 2021
   title: "Does Typological Blinding Impede Cross-Lingual Sharing?"

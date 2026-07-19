@@ -1,7 +1,7 @@
 ---
 layout: default
 title:
-description: Professor of Natural Language Processing at Aalborg University, leading research on multilingual NLP, language-model security, and linguistically grounded AI safety.
+description: Professor of Natural Language Processing at Aalborg University, working on multilingual NLP, linguistic structure and semantics, and language-model security and privacy.
 body_class: home
 ---
 
@@ -9,8 +9,8 @@ body_class: home
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
       <p class="eyebrow">Professor · Natural Language Processing</p>
-      <h1>Language, meaning, and security in modern AI systems.</h1>
-      <p class="hero-lead">I lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a> at Aalborg University. My research brings linguistics and machine learning together to build language technologies that are multilingual, secure, and worthy of trust.</p>
+      <h1>Linguistic structure, multilingual NLP, and language-model security.</h1>
+      <p class="hero-lead">I lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a> at Aalborg University. My research connects NLP, linguistics, and machine learning, with a focus on multilingual language technology, linguistic structure, and security and privacy in language models.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
         <a class="button text" href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en">View publications <span aria-hidden="true">↗</span></a>
@@ -37,13 +37,13 @@ body_class: home
   <div class="shell">
     <div class="section-heading reveal">
       <p class="eyebrow">Research</p>
-      <h2>Understanding language is central to making AI work safely across people, systems, and languages.</h2>
+      <h2>I study how linguistic structure can improve the analysis, evaluation, and security of language technologies across languages.</h2>
     </div>
     <div class="pillar-grid">
       <article class="pillar reveal">
         <span class="pillar-index">01</span>
         <h3>Language-model security</h3>
-        <p>I study how language models leak, manipulate, and misrepresent information—and how linguistic evidence can make these failures easier to detect and prevent.</p>
+        <p>I study security and privacy risks in language models and text embeddings, including inversion, leakage, poisoning, and the detection of manipulated or machine-generated text.</p>
         <a href="{{ '/research/#security' | relative_url }}">Security research <span aria-hidden="true">→</span></a>
       </article>
       <article class="pillar reveal delay-1">
@@ -55,7 +55,7 @@ body_class: home
       <article class="pillar reveal delay-2">
         <span class="pillar-index">03</span>
         <h3>Linguistic structure and meaning</h3>
-        <p>I study how linguistic structure and formal meaning representations can help us analyse what language models learn, infer, and communicate.</p>
+        <p>I study how linguistic structure and formal semantics can help us analyse what language models learn, infer, and communicate.</p>
         <a href="{{ '/research/#semantics' | relative_url }}">Semantics research <span aria-hidden="true">→</span></a>
       </article>
     </div>
@@ -66,9 +66,9 @@ body_class: home
   <div class="shell split-heading">
     <div>
       <p class="eyebrow">Current programmes</p>
-      <h2>Research at scale</h2>
+      <h2>Selected funded programmes</h2>
     </div>
-    <p>I lead interdisciplinary programmes supported by the Novo Nordisk Foundation, Independent Research Fund Denmark, the Carlsberg Foundation, and Aalborg University.</p>
+    <p>I lead and co-lead funded research spanning multilingual NLP, language-model security and privacy, and formal and computational semantics.</p>
   </div>
   <div class="shell project-preview">
     {% for project in site.data.projects limit: 4 %}
@@ -104,7 +104,7 @@ body_class: home
 
 <section class="contact-band">
   <div class="shell contact-band-inner">
-    <div><p class="eyebrow">Collaboration</p><h2>Interested in secure, multilingual, or meaning-aware AI?</h2></div>
+    <div><p class="eyebrow">Collaboration</p><h2>Interested in collaboration on multilingual NLP, linguistic structure, or language-model security?</h2></div>
     <a class="button light" href="mailto:jbjerva@cs.aau.dk">Get in touch</a>
   </div>
 </section>
