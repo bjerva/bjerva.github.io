@@ -89,7 +89,7 @@ body_class: home
     <div class="news-heading">
       <p class="eyebrow">Selected highlights</p>
       <h2>Recent work</h2>
-      <p>A selective record of developments, rather than a running activity log.</p>
+      <p>A selective timeline of projects, publications, and career milestones I am particularly proud of. The major grants have been especially important to me: they have made it possible to turn long-term ideas into sustained research programmes and to grow the team needed to pursue them.</p>
     </div>
     <ol class="timeline">
       {% for item in site.data.highlights %}
