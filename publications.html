@@ -28,7 +28,7 @@ permalink: /publications/
         <div class="publication-body">
           <div class="publication-labels"><span class="tag">{{ publication.theme | escape }}</span><span class="venue-label">{{ publication.venue | escape }}</span></div>
           <h2><a href="{{ publication.url }}">{{ publication.title | escape }}</a></h2>
-          <p class="publication-authors">{{ publication.authors | escape }}</p>
+          <p class="publication-authors">{{ publication.authors | escape | replace: 'Johannes Bjerva', '<strong class="publication-author-self">Johannes Bjerva</strong>' }}</p>
           <p class="publication-summary">{{ publication.summary | escape }}</p>
         </div>
         <a class="publication-arrow" href="{{ publication.url }}" aria-label="Open {{ publication.title | escape }}">↗</a>
