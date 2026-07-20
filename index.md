@@ -1,7 +1,7 @@
 ---
 layout: default
 title:
-description: Professor of Natural Language Processing at Aalborg University, working on multilingual NLP, linguistic structure and semantics, and language-model security and privacy.
+description: Professor of Natural Language Processing at Aalborg University, building linguistically grounded and trustworthy language AI across languages, with research spanning semantics, security, and privacy.
 body_class: home
 ---
 
@@ -9,8 +9,8 @@ body_class: home
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
       <p class="eyebrow">Professor · Natural Language Processing</p>
-      <h1>Multilingual NLP—from linguistic structure to model security.</h1>
-      <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. I study language models across languages, with particular attention to linguistic structure, meaning, security, and privacy.</p>
+      <h1>Linguistically grounded, trustworthy language AI.</h1>
+      <p class="hero-lead">Language is increasingly the interface through which AI systems reason, retrieve knowledge, and interact with people. At Aalborg University, I lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a> and study how linguistic structure and meaning can make these systems more reliable and secure across languages.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
         <a class="button text" href="{{ '/publications/' | relative_url }}">Selected publications <span aria-hidden="true">→</span></a>
@@ -39,12 +39,14 @@ body_class: home
         <a href="{{ '/research/#projects' | relative_url }}">Funding portfolio <span aria-hidden="true">→</span></a>
       </article>
       <article class="evidence-card reveal delay-1">
-        <p class="evidence-label">Selected publication outlets</p>
-        <ul class="outlet-list" aria-label="Selected publication outlets">
-          {% for outlet in site.data.site_metrics.outlets %}<li>{{ outlet }}</li>{% endfor %}
+        <p class="evidence-label">Research programme</p>
+        <ul class="outlet-list" aria-label="Research programme">
+          <li>Multilingual language understanding</li>
+          <li>Trustworthy and secure language models</li>
+          <li>Linguistic analysis of meaning</li>
         </ul>
-        <p>Peer-reviewed work across NLP, linguistics, AI security, and machine learning.</p>
-        <a href="{{ '/publications/' | relative_url }}">Selected publications <span aria-hidden="true">→</span></a>
+        <p>Three connected strands, grounded in linguistic structure and evaluated across languages.</p>
+        <a href="{{ '/research/' | relative_url }}">Research vision <span aria-hidden="true">→</span></a>
       </article>
       <article class="evidence-card reveal delay-2">
         <p class="evidence-label">Research and public reach</p>
