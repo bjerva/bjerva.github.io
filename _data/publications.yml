@@ -63,6 +63,14 @@
   url: "https://aclanthology.org/2025.acl-long.1185/"
 
 - year: 2025
+  title: "Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks"
+  authors: "Yiyi Chen, Russa Biswas, Heather Lent, and Johannes Bjerva"
+  venue: "AAAI 2025"
+  themes: ["Security & Privacy", "Multilingual NLP", "Linguistics & Semantics"]
+  summary: "Extends multilingual embedding-inversion research across 20 languages, eight language families, and 12 scripts, revealing systematic differences in vulnerability across scripts and language families. It shows that language confusion is not merely noise but a predictable bottleneck attackers may exploit, connecting linguistic structure directly to LLM security risk."
+  url: "https://ojs.aaai.org/index.php/AAAI/article/view/34533"
+
+- year: 2025
   title: "Large Language Models are Easily Confused: A Quantitative Metric, Security Implications and Typological Analysis"
   authors: "Yiyi Chen, Qiongxiu Li, Russa Biswas, and Johannes Bjerva"
   venue: "Findings of NAACL 2025"
