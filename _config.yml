@@ -8,6 +8,8 @@ author:
   email: jbjerva@cs.aau.dk
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
