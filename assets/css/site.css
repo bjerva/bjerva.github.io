@@ -189,6 +189,7 @@ h3 { line-height: 1.25; }
 .publication h2 a:hover { color: var(--accent); }
 .publication p { color: var(--ink-soft); }
 .publication-authors { max-width: 950px; margin-bottom: 0; font-size: .84rem; }
+.publication-author-self { color: var(--ink); font-weight: 700; }
 .publication-summary { max-width: 880px; margin: 1rem 0 0; font-family: var(--serif); font-size: 1rem; line-height: 1.55; }
 .publication-arrow { color: var(--accent); font-size: 1.2rem; text-decoration: none; }
 .scholarly-note { padding-top: 2rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .82rem; }
