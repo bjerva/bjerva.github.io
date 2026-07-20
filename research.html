@@ -87,11 +87,11 @@ permalink: /research/
     {% for project in site.data.projects %}
       <article class="project-row">
         <div class="project-funding">
-          <div class="project-logos" aria-label="Funding body">
+          <div class="project-logos" role="group" aria-label="Funding body">
             {% for logo in project.logos %}
-              <div class="project-logo{% if logo.surface == 'dark' %} project-logo--dark{% endif %}{% if logo.label %} project-logo--labelled{% endif %}">
+              <div class="project-logo{% if logo.treatment == 'invert' %} project-logo--invert{% endif %}{% if logo.label %} project-logo--labelled{% endif %}">
                 <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | escape }} logo" loading="lazy" decoding="async">
-                {% if logo.label %}<span>{{ logo.label | escape }}</span>{% endif %}
+                {% if logo.label %}<span aria-hidden="true">{{ logo.label | escape }}</span>{% endif %}
               </div>
             {% endfor %}
           </div>

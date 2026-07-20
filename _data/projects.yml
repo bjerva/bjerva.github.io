@@ -20,6 +20,7 @@
   logos:
     - src: "/assets/images/funders/independent-research-fund-denmark.png"
       alt: "Independent Research Fund Denmark"
+      treatment: "invert"
   period: "2026–2030"
   amount: "DKK 6.2M"
   role: "Principal Investigator"
@@ -36,6 +37,7 @@
   logos:
     - src: "/assets/images/funders/coefficient-giving.png"
       alt: "Coefficient Giving"
+      treatment: "invert"
   period: "2026–2028"
   amount: "DKK 2.4M"
   role: "Principal Investigator"
@@ -53,6 +55,7 @@
     - src: "/assets/images/funders/aalborg-university.svg"
       alt: "Aalborg University"
       label: "Aalborg University"
+      treatment: "invert"
   period: "2025–2029"
   amount: "~DKK 7M"
   role: "Lab Director / Principal Investigator"
@@ -69,7 +72,6 @@
   logos:
     - src: "/assets/images/funders/innovation-fund-denmark.svg"
       alt: "Innovation Fund Denmark"
-      surface: "dark"
   period: "2024–2027"
   amount: "DKK 1.1M"
   role: "Principal Investigator"
@@ -109,6 +111,7 @@
   logos:
     - src: "/assets/images/funders/villum-foundation.svg"
       alt: "Villum Foundation"
+      treatment: "invert"
   period: "2024–2026"
   amount: "DKK 3M"
   role: "Principal Investigator (methods)"
