@@ -23,10 +23,13 @@ permalink: /publications/
   </div>
   <div class="shell publication-list">
     {% for publication in site.data.publications %}
-      <article class="publication" data-theme="{{ publication.theme | escape }}">
+      <article class="publication" data-themes="{{ publication.themes | join: '|' | escape }}">
         <div class="publication-year">{{ publication.year }}</div>
         <div class="publication-body">
-          <div class="publication-labels"><span class="tag">{{ publication.theme | escape }}</span><span class="venue-label">{{ publication.venue | escape }}</span></div>
+          <div class="publication-labels">
+            {% for theme in publication.themes %}<span class="tag" data-theme="{{ theme | escape }}">{{ theme | escape }}</span>{% endfor %}
+            <span class="venue-label">{{ publication.venue | escape }}</span>
+          </div>
           <h2><a href="{{ publication.url }}">{{ publication.title | escape }}</a></h2>
           <p class="publication-authors">{{ publication.authors | escape | replace: 'Johannes Bjerva', '<strong class="publication-author-self">Johannes Bjerva</strong>' }}</p>
           <p class="publication-summary">{{ publication.summary | escape }}</p>

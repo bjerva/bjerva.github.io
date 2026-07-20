@@ -35,7 +35,8 @@ filters.forEach((button) => {
     button.setAttribute('aria-pressed', 'true');
     const filter = button.dataset.filter;
     publications.forEach((publication) => {
-      publication.hidden = filter !== 'all' && publication.dataset.theme !== filter;
+      const themes = (publication.dataset.themes || '').split('|');
+      publication.hidden = filter !== 'all' && !themes.includes(filter);
     });
   });
 });

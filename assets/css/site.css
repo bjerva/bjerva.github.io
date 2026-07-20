@@ -171,16 +171,16 @@ h3 { line-height: 1.25; }
 .publication-controls { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
 .filter-button { padding: .55rem .85rem; border: 1px solid var(--line); background: transparent; color: var(--ink-soft); cursor: pointer; font: 600 .76rem var(--sans); }
 .filter-button:hover, .filter-button.active { border-color: var(--navy); background: var(--navy); color: white; }
-.publication { --theme-tag-bg: #e5edf2; --theme-tag-border: #c8d8e2; --theme-tag-ink: #315a70; display: grid; grid-template-columns: 90px 1fr 30px; gap: 2rem; padding: 2.6rem 0; border-top: 1px solid var(--line); }
-.publication[data-theme="Security & Privacy"] { --theme-tag-bg: #f4e5e1; --theme-tag-border: #e7c7bf; --theme-tag-ink: #843e33; }
-.publication[data-theme="Factuality & Evaluation"] { --theme-tag-bg: #e4eee8; --theme-tag-border: #c7dccf; --theme-tag-ink: #32644e; }
-.publication[data-theme="Multilingual NLP"] { --theme-tag-bg: #e3edf3; --theme-tag-border: #c5d9e4; --theme-tag-ink: #315f76; }
-.publication[data-theme="Linguistics & Semantics"] { --theme-tag-bg: #eee8f4; --theme-tag-border: #d9cce5; --theme-tag-ink: #624776; }
+.publication { display: grid; grid-template-columns: 90px 1fr 30px; gap: 2rem; padding: 2.6rem 0; border-top: 1px solid var(--line); }
 .publication[hidden] { display: none; }
 .publication-year { color: var(--accent); font-family: var(--serif); font-size: 1.2rem; }
 .publication-labels { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
 .publication .tag, .venue-label { display: inline-flex; min-height: 25px; align-items: center; padding: .34rem .62rem; border: 1px solid transparent; border-radius: 7px; box-shadow: 0 1px 0 rgba(23,33,43,.04); font-size: .64rem; font-weight: 700; letter-spacing: .055em; line-height: 1; text-transform: uppercase; }
-.publication .tag { border-color: var(--theme-tag-border); background: var(--theme-tag-bg); color: var(--theme-tag-ink); }
+.publication .tag { border-color: #c8d8e2; background: #e5edf2; color: #315a70; }
+.publication .tag[data-theme="Security & Privacy"] { border-color: #e7c7bf; background: #f4e5e1; color: #843e33; }
+.publication .tag[data-theme="Factuality & Evaluation"] { border-color: #c7dccf; background: #e4eee8; color: #32644e; }
+.publication .tag[data-theme="Multilingual NLP"] { border-color: #c5d9e4; background: #e3edf3; color: #315f76; }
+.publication .tag[data-theme="Linguistics & Semantics"] { border-color: #d9cce5; background: #eee8f4; color: #624776; }
 .venue-label { border-color: #e2cfaa; background: #f3ead8; color: #735429; }
 .publication h2 { max-width: 950px; margin: .75rem 0 .7rem; font-family: var(--serif); font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.2; }
 .publication h2 a { text-decoration: none; }
