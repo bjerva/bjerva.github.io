@@ -123,9 +123,9 @@ permalink: /research/
         </div>
 
         <div class="project-impact">
-          <div class="project-impact-top"><p>Linked work</p><span>{{ project.impact_metric | escape }}</span></div>
+          <div class="project-impact-top"><p>{{ project.impact_label | default: "Linked work" | escape }}</p><span>{{ project.impact_metric | escape }}</span></div>
           <p>{{ project.impact | escape }}</p>
-          <a href="{{ project.url }}">Project and linked outputs on VBN <span aria-hidden="true">↗</span></a>
+          <a href="{{ project.url }}">{{ project.link_label | default: "Project and linked outputs on VBN" | escape }} <span aria-hidden="true">↗</span></a>
         </div>
       </article>
     {% endfor %}

@@ -18,7 +18,7 @@ body_class: home
     </div>
     <div class="portrait-wrap reveal delay-1">
       <div class="portrait-frame">
-        <img src="{{ '/images/Johannes%20Bjerva_a%20(002).jpg' | relative_url }}" alt="Johannes Bjerva" width="800" height="960">
+        <img src="{{ '/images/Johannes%20Bjerva_a%20(002).jpg' | relative_url }}" alt="Johannes Bjerva" width="945" height="1417" decoding="async" fetchpriority="high">
       </div>
       <div class="portrait-note">
         <span class="signal-dot" aria-hidden="true"></span>

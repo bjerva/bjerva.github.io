@@ -3,7 +3,11 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign pages = site.pages | where_exp: "page", "page.sitemap != false" %}
-{% for page in pages %}{% if page.url and page.url != '/404.html' %}<url><loc>{{ page.url | absolute_url }}</loc></url>{% endif %}{% endfor %}
+  <url><loc>{{ '/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/research/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/publications/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/group/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/teaching/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/service/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/cv/' | absolute_url }}</loc></url>
 </urlset>
-
