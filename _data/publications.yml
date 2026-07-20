@@ -181,3 +181,11 @@
   theme: "Linguistics & Semantics"
   summary: "Introduces semantic tagging as a fine-grained task for multilingual semantic parsing and presents an early deep residual architecture for it. The work anchors the formal-semantics strand of the publication record and helped establish semantic tagging as a reusable representation layer."
   url: "https://aclanthology.org/C16-1333/"
+
+- year: 2014
+  title: "The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity"
+  authors: "Johannes Bjerva, Johan Bos, Rob van der Goot, and Malvina Nissim"
+  venue: "SemEval 2014"
+  theme: "Linguistics & Semantics"
+  summary: "Combines formal meaning representations and logical inference with statistical classification for textual entailment and semantic similarity, placing among the top systems in the SemEval 2014 entailment task. As one of the most-cited works in the publication record, it provides an early foundation for the later research strand connecting explicit representations of meaning with trustworthy language technology."
+  url: "https://aclanthology.org/S14-2114/"
