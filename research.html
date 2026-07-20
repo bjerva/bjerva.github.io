@@ -59,15 +59,78 @@ permalink: /research/
 </section>
 
 <section class="section section-navy" id="projects">
-  <div class="shell split-heading inverse"><div><p class="eyebrow">Funded research</p><h2>Projects and programmes</h2></div><p>Selected externally and institutionally funded research. Dates and funding are stated at programme level.</p></div>
+  <div class="shell split-heading inverse">
+    <div><p class="eyebrow">Funded research</p><h2>Projects and programmes</h2></div>
+    <p>Selected externally and institutionally funded research, the teams it supports, and what each programme is already producing. Impact snapshots use project-linked VBN records and are current to July 2026.</p>
+  </div>
+
+  <div class="shell">
+    <div class="funding-overview" aria-label="Funding portfolio summary">
+      <div class="funding-total">
+        <p class="funding-overline">Portfolio represented here</p>
+        <p class="funding-number"><span>~DKK</span> 35M</p>
+        <p>secured as PI since 2022</p>
+      </div>
+      <div class="funding-stat">
+        <strong>2022–2026</strong>
+        <p>Award years represented</p>
+      </div>
+      <div class="funding-stat">
+        <strong>7 / 8</strong>
+        <p>Programmes / awards</p>
+      </div>
+    </div>
+    <p class="funding-qualification">Rounded from the programme amounts below. The total includes ~DKK 7M in internal AAU AI:X Lab funding co-led with Qiongxiu Li and the DKK 425k Google award shown with the Carlsberg programme. Project periods span 2022–2030.</p>
+  </div>
+
   <div class="shell project-list">
     {% for project in site.data.projects %}
       <article class="project-row">
-        <div><span class="tag">{{ project.theme }}</span><p class="project-period">{{ project.period }}</p></div>
-        <div><h3>{{ project.title | escape }}</h3><p class="project-subtitle">{{ project.subtitle | escape }}</p></div>
-        <div><p>{{ project.description | escape }}</p><p class="project-funder">{{ project.funder | escape }}{% if project.amount %} · {{ project.amount | escape }}{% endif %}</p></div>
-        <a href="{{ project.url }}" aria-label="Read more about {{ project.title | escape }}">↗</a>
+        <div class="project-funding">
+          <div class="project-logos" aria-label="Funding body">
+            {% for logo in project.logos %}
+              <div class="project-logo{% if logo.surface == 'dark' %} project-logo--dark{% endif %}{% if logo.label %} project-logo--labelled{% endif %}">
+                <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | escape }} logo" loading="lazy" decoding="async">
+                {% if logo.label %}<span>{{ logo.label | escape }}</span>{% endif %}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="project-award-meta">
+            <p class="project-amount-label">Funding</p>
+            <p class="project-amount">{{ project.amount | escape }}</p>
+            <p class="project-role">{{ project.role | escape }}</p>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker"><span class="tag">{{ project.theme }}</span><span class="project-period">{{ project.period }}</span></div>
+          <h3>{{ project.title | escape }}</h3>
+          <p class="project-subtitle">{{ project.subtitle | escape }}</p>
+          <p class="project-description">{{ project.description | escape }}</p>
+          <dl class="project-facts">
+            <div><dt>Funder</dt><dd>{{ project.funder | escape }}</dd></div>
+            <div><dt>Staffing</dt><dd>{{ project.staffing | escape }}</dd></div>
+          </dl>
+
+          {% if project.related_award %}
+            <div class="related-award">
+              <div class="related-award-logo"><img src="{{ project.related_award.logo.src | relative_url }}" alt="{{ project.related_award.logo.alt | escape }} logo" loading="lazy" decoding="async"></div>
+              <div>
+                <p>Related award</p>
+                <h4>{{ project.related_award.title | escape }}</h4>
+                <p>{{ project.related_award.amount | escape }} · {{ project.related_award.staffing | escape }}</p>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="project-impact">
+          <div class="project-impact-top"><p>Impact</p><span>{{ project.impact_metric | escape }}</span></div>
+          <p>{{ project.impact | escape }}</p>
+          <a href="{{ project.url }}">Project and linked outputs on VBN <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
     {% endfor %}
   </div>
+  <p class="shell project-method-note">Staffing follows the latest CV; “PD-months” means funded postdoctoral researcher months. VBN totals are a dated snapshot and will grow as new outputs are linked.</p>
 </section>
