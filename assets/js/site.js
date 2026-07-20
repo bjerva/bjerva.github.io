@@ -27,12 +27,15 @@ const filters = document.querySelectorAll('.filter-button');
 const publications = document.querySelectorAll('.publication');
 filters.forEach((button) => {
   button.addEventListener('click', () => {
-    filters.forEach((item) => item.classList.remove('active'));
+    filters.forEach((item) => {
+      item.classList.remove('active');
+      item.setAttribute('aria-pressed', 'false');
+    });
     button.classList.add('active');
+    button.setAttribute('aria-pressed', 'true');
     const filter = button.dataset.filter;
     publications.forEach((publication) => {
       publication.hidden = filter !== 'all' && publication.dataset.theme !== filter;
     });
   });
 });
-

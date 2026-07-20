@@ -1,36 +1,81 @@
 - year: 2026
+  title: "Do LLMs Really Memorize Personally Identifiable Information? Revisiting PII Leakage with a Cue-Controlled Memorization Framework"
+  authors: "Xiaoyu Luo, Yiyi Chen, Qiongxiu Li, and Johannes Bjerva"
+  venue: "ACL 2026"
+  theme: "Security & Privacy"
+  summary: "Introduces Cue-Resistant Memorization, a framework that separates genuine memorisation from reconstruction enabled by lexical cues. Across 32 languages, it shows that much apparent PII leakage is cue-driven, tightening the evidential standard for privacy claims about LLMs."
+  url: "https://aclanthology.org/2026.acl-long.1560/"
+
+- year: 2026
+  title: "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
+  authors: "Ernests Lavrinovics, Russa Biswas, Katja Hose, and Johannes Bjerva"
+  venue: "ICML 2026"
+  theme: "Factuality & Evaluation"
+  summary: "Builds a multilingual, multi-hop benchmark grounded in knowledge-graph paths for evaluating LLM hallucinations. It connects structured evidence with generative factuality evaluation, creating a shared test bed for multilingual hallucination mitigation."
+  url: "https://openreview.net/forum?id=kGSwStubjL"
+
+- year: 2026
   title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
   authors: "Esther Ploeger, Wessel Poelman, Andreas Holck Høeg-Petersen, Anders Schlichtkrull, Miryam de Lhoneux, and Johannes Bjerva"
   venue: "Computational Linguistics"
   theme: "Multilingual NLP"
+  summary: "Introduces an explicit language-sampling framework and metrics for building typologically diverse evaluation sets. It demonstrates that language selection materially affects the generalisability of multilingual evaluation claims."
   url: "https://aclanthology.org/2026.cl-1.7/"
 
 - year: 2026
   title: "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP"
   authors: "Kushal Tatariya, Artur Kulmizev, Wessel Poelman, Esther Ploeger, Marcel Bollmann, Johannes Bjerva, Jiaming Luo, Heather Lent, and Miryam de Lhoneux"
   venue: "ACL 2026"
-  theme: "Multilingual NLP"
+  theme: "Factuality & Evaluation"
+  summary: "Audits the entirety of non-English Wikipedia with quality filters usually applied to noisy web data. The resulting quality ranking and downstream experiments show why multilingual NLP must treat data quality, not language coverage alone, as a first-class concern."
   url: "https://aclanthology.org/2026.acl-long.1373/"
+
+- year: 2025
+  title: "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"
+  authors: "Xiaoyu Luo, Yiyi Chen, Johannes Bjerva, and Qiongxiu Li"
+  venue: "EMNLP 2025"
+  theme: "Security & Privacy"
+  summary: "Presents a broad study of memorisation across 95 languages, model families, scales, and definitions. It shows that language similarity reveals cross-lingual memorisation patterns that training-data volume alone cannot explain."
+  url: "https://aclanthology.org/2025.emnlp-main.978/"
+
+- year: 2025
+  title: "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective"
+  authors: "Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, and Katja Hose"
+  venue: "Journal of Web Semantics"
+  theme: "Factuality & Evaluation"
+  summary: "Synthesises how knowledge graphs can support the detection, evaluation, and mitigation of LLM hallucinations. Its taxonomy of integration strategies and open problems has become an influential reference point for work at the knowledge-graph–LLM interface."
+  url: "https://doi.org/10.1016/j.websem.2024.100844"
 
 - year: 2025
   title: "NLP Security and Ethics, in the Wild"
   authors: "Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva"
-  venue: "Transactions of the ACL"
-  theme: "Security & Safety"
+  venue: "TACL"
+  theme: "Security & Privacy"
+  summary: "Connects emerging NLP-security research with the established ethical norms of cybersecurity and documents important gaps in current practice. It develops the idea of “white-hat NLP” and offers concrete guidance for harm minimisation and responsible disclosure."
   url: "https://aclanthology.org/2025.tacl-1.33/"
 
 - year: 2025
   title: "ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
   venue: "ACL 2025"
-  theme: "Security & Safety"
+  theme: "Security & Privacy"
+  summary: "Shows that partially successful text-embedding inversion is possible from a single example by aligning a victim embedding space with an attack model. By sharply lowering the data needed for attacks and demonstrating transfer across domains and languages, it establishes a more realistic threat model for stored embeddings."
   url: "https://aclanthology.org/2025.acl-long.1185/"
+
+- year: 2025
+  title: "Large Language Models are Easily Confused: A Quantitative Metric, Security Implications and Typological Analysis"
+  authors: "Yiyi Chen, Qiongxiu Li, Russa Biswas, and Johannes Bjerva"
+  venue: "Findings of NAACL 2025"
+  theme: "Security & Privacy"
+  summary: "Introduces Language Confusion Entropy to quantify when LLMs answer in an unintended or contextually inappropriate language. It links these failures to linguistic typology and multilingual embedding inversion, connecting model behaviour with concrete security risks."
+  url: "https://aclanthology.org/2025.findings-naacl.210/"
 
 - year: 2024
   title: "Text Embedding Inversion Security for Multilingual Language Models"
   authors: "Yiyi Chen, Heather Lent, and Johannes Bjerva"
   venue: "ACL 2024"
-  theme: "Security & Safety"
+  theme: "Security & Privacy"
+  summary: "Defines multilingual and cross-lingual embedding-inversion attacks and systematically tests how their risks vary across languages. It shows that multilingual models may be more exposed and that English-centred defences do not automatically transfer."
   url: "https://aclanthology.org/2024.acl-long.422/"
 
 - year: 2024
@@ -38,27 +83,63 @@
   authors: "Esther Ploeger, Wessel Poelman, Miryam de Lhoneux, and Johannes Bjerva"
   venue: "EMNLP 2024"
   theme: "Multilingual NLP"
+  summary: "A meta-analysis showing that NLP papers use “typological diversity” without a stable definition or consistent operationalisation. It demonstrates that skewed language samples can overestimate multilingual performance and provides measures for more defensible evaluation."
   url: "https://aclanthology.org/2024.emnlp-main.326/"
+
+- year: 2024
+  title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
+  authors: "Heather Lent, Kushal Tatariya, Raj Dabre, Yiyi Chen, Marcell Fekete, Esther Ploeger, Li Zhou, Ruth-Ann Armstrong, Abee Eijansantos, Catriona Malau, Hans Erik Heje, Ernests Lavrinovics, Diptesh Kanojia, Paul Belony, Marcel Bollmann, Loïc Grobol, Miryam de Lhoneux, Daniel Hershcovich, Michel DeGraff, Anders Søgaard, and Johannes Bjerva"
+  venue: "TACL"
+  theme: "Multilingual NLP"
+  summary: "Brings together benchmarks for eight NLP tasks across as many as 28 Creole languages, including newly developed datasets. It supplies foundational evaluation infrastructure for languages that remain markedly underrepresented in NLP."
+  url: "https://aclanthology.org/2024.tacl-1.53/"
 
 - year: 2024
   title: "The Role of Typological Feature Prediction in NLP and Linguistics"
   authors: "Johannes Bjerva"
   venue: "Computational Linguistics"
   theme: "Linguistics & Semantics"
+  summary: "Critically examines whether typological feature prediction serves the needs claimed for it in NLP and linguistic documentation. A survey of linguistic typologists turns that critique into concrete recommendations for better interdisciplinary alignment."
   url: "https://aclanthology.org/2024.cl-2.8/"
 
 - year: 2021
-  title: "Does Typological Blinding Impede Cross-Lingual Sharing?"
-  authors: "Johannes Bjerva and Isabelle Augenstein"
-  venue: "EACL 2021"
+  title: "Inducing Language-Agnostic Multilingual Representations"
+  authors: "Wei Zhao, Steffen Eger, Johannes Bjerva, and Isabelle Augenstein"
+  venue: "*SEM 2021"
   theme: "Multilingual NLP"
-  url: "https://aclanthology.org/2021.eacl-main.38/"
+  summary: "Tests several ways to remove language-identity signals from multilingual representations across 19 typologically diverse languages. Its combination of positive and negative results clarifies when representation alignment closes cross-lingual transfer gaps—and when intuitive normalisation methods fail."
+  url: "https://aclanthology.org/2021.starsem-1.22/"
+
+- year: 2020
+  title: "Zero-Shot Cross-Lingual Transfer with Meta Learning"
+  authors: "Farhad Nooralahzadeh, Giannis Bekoulis, Johannes Bjerva, and Isabelle Augenstein"
+  venue: "EMNLP 2020"
+  theme: "Multilingual NLP"
+  summary: "Uses meta-learning to select source-language training instances that transfer effectively to languages with little or no labelled data. Results across 15 languages, together with a typological analysis, established a strong account of when learned cross-lingual sharing helps."
+  url: "https://aclanthology.org/2020.emnlp-main.368/"
+
+- year: 2020
+  title: "SubjQA: A Dataset for Subjectivity and Review Comprehension"
+  authors: "Johannes Bjerva, Nikita Bhutani, Behzad Golshan, Wang-Chiew Tan, and Isabelle Augenstein"
+  venue: "EMNLP 2020"
+  theme: "Factuality & Evaluation"
+  summary: "Introduces a question-answering dataset with subjectivity annotations for questions and answer spans across six review domains. It made the interaction between subjective language and answer correctness directly measurable in extractive QA."
+  url: "https://aclanthology.org/2020.emnlp-main.442/"
+
+- year: 2019
+  title: "What Do Language Representations Really Represent?"
+  authors: "Johannes Bjerva, Robert Östling, Maria Han Veiga, Jörg Tiedemann, and Isabelle Augenstein"
+  venue: "Computational Linguistics"
+  theme: "Multilingual NLP"
+  summary: "Disentangles structural, genetic, and geographical signals in language representations learned from translated text. It shows that structural similarity is the strongest correlate while genetic relatedness can act as a confound, sharpening how such representations should be interpreted."
+  url: "https://aclanthology.org/J19-2006/"
 
 - year: 2019
   title: "A Probabilistic Generative Model of Linguistic Typology"
   authors: "Johannes Bjerva, Yova Kementchedjhieva, Ryan Cotterell, and Isabelle Augenstein"
   venue: "NAACL 2019"
   theme: "Linguistics & Semantics"
+  summary: "Models languages and typological features jointly through exponential-family matrix factorisation. The work connects formal hypotheses about feature covariance with generalisation to unseen languages, bridging linguistic theory and probabilistic NLP."
   url: "https://aclanthology.org/N19-1156/"
 
 - year: 2018
@@ -66,4 +147,13 @@
   authors: "Johannes Bjerva and Isabelle Augenstein"
   venue: "NAACL 2018"
   theme: "Linguistics & Semantics"
+  summary: "Demonstrates that multilingual language embeddings encode typological structure across phonology, morphology, and syntax. It helped establish language representations as empirical tools for studying cross-linguistic structure as well as supporting downstream transfer."
   url: "https://aclanthology.org/N18-1083/"
+
+- year: 2017
+  title: "The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations Annotated with Compositional Meaning Representations"
+  authors: "Lasha Abzianidze, Johannes Bjerva, Kilian Evang, Hessel Haagsma, Rik van Noord, Pierre Ludmann, Duc-Duy Nguyen, and Johan Bos"
+  venue: "EACL 2017"
+  theme: "Linguistics & Semantics"
+  summary: "Introduces a multilingual corpus in which translations share compositional meaning representations based on Discourse Representation Theory. The resource created a foundational bridge between multilingual NLP and formal semantics, supporting research well beyond the original paper."
+  url: "https://aclanthology.org/E17-2039/"
