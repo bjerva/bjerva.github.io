@@ -70,6 +70,14 @@
   summary: "Introduces Language Confusion Entropy to quantify when LLMs answer in an unintended or contextually inappropriate language. It links these failures to linguistic typology and multilingual embedding inversion, connecting model behaviour with concrete security risks."
   url: "https://aclanthology.org/2025.findings-naacl.210/"
 
+- year: 2025
+  title: "Linguistically Grounded Analysis of Language Models using Shapley Head Values"
+  authors: "Marcell Fekete and Johannes Bjerva"
+  venue: "Findings of NAACL 2025"
+  theme: "Linguistics & Semantics"
+  summary: "Uses Shapley Head Values to reveal how BERT and RoBERTa organise attention heads around related morphosyntactic phenomena. It brings linguistic theory into model analysis and connects the earlier representation work with modern language-model interpretability."
+  url: "https://aclanthology.org/2025.findings-naacl.49/"
+
 - year: 2024
   title: "Text Embedding Inversion Security for Multilingual Language Models"
   authors: "Yiyi Chen, Heather Lent, and Johannes Bjerva"
@@ -102,6 +110,14 @@
   summary: "Critically examines whether typological feature prediction serves the needs claimed for it in NLP and linguistic documentation. A survey of linguistic typologists turns that critique into concrete recommendations for better interdisciplinary alignment."
   url: "https://aclanthology.org/2024.cl-2.8/"
 
+- year: 2023
+  title: "Colex2Lang: Language Embeddings from Semantic Typology"
+  authors: "Yiyi Chen, Russa Biswas, and Johannes Bjerva"
+  venue: "NoDaLiDa 2023"
+  theme: "Linguistics & Semantics"
+  summary: "Learns language representations from cross-linguistic colexification graphs, bringing semantic typology into a space previously dominated by syntactic features. It establishes a semantic route to modelling language similarity and broadens the linguistic basis of multilingual NLP."
+  url: "https://aclanthology.org/2023.nodalida-1.67/"
+
 - year: 2021
   title: "Inducing Language-Agnostic Multilingual Representations"
   authors: "Wei Zhao, Steffen Eger, Johannes Bjerva, and Isabelle Augenstein"
@@ -130,7 +146,7 @@
   title: "What Do Language Representations Really Represent?"
   authors: "Johannes Bjerva, Robert Östling, Maria Han Veiga, Jörg Tiedemann, and Isabelle Augenstein"
   venue: "Computational Linguistics"
-  theme: "Multilingual NLP"
+  theme: "Linguistics & Semantics"
   summary: "Disentangles structural, genetic, and geographical signals in language representations learned from translated text. It shows that structural similarity is the strongest correlate while genetic relatedness can act as a confound, sharpening how such representations should be interpreted."
   url: "https://aclanthology.org/J19-2006/"
 
@@ -157,3 +173,11 @@
   theme: "Linguistics & Semantics"
   summary: "Introduces a multilingual corpus in which translations share compositional meaning representations based on Discourse Representation Theory. The resource created a foundational bridge between multilingual NLP and formal semantics, supporting research well beyond the original paper."
   url: "https://aclanthology.org/E17-2039/"
+
+- year: 2016
+  title: "Semantic Tagging with Deep Residual Networks"
+  authors: "Johannes Bjerva, Barbara Plank, and Johan Bos"
+  venue: "COLING 2016"
+  theme: "Linguistics & Semantics"
+  summary: "Introduces semantic tagging as a fine-grained task for multilingual semantic parsing and presents an early deep residual architecture for it. The work anchors the formal-semantics strand of the publication record and helped establish semantic tagging as a reusable representation layer."
+  url: "https://aclanthology.org/C16-1333/"
