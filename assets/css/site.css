@@ -142,6 +142,7 @@ h3 { line-height: 1.25; }
 .project-award-meta { margin-top: 1.7rem; }
 .project-amount-label { margin-bottom: .25rem; color: var(--accent-light); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .project-amount { margin-bottom: .4rem; color: white; font-family: var(--serif); font-size: clamp(1.75rem, 3vw, 2.25rem); font-weight: 600; letter-spacing: -.025em; line-height: 1; }
+.project-programme { max-width: 210px; margin: .7rem 0 .35rem; color: rgba(255,255,255,.88); font-size: .73rem; font-weight: 700; line-height: 1.4; }
 .project-role { margin: 0; color: rgba(255,255,255,.55); font-size: .72rem; line-height: 1.4; }
 .project-kicker { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.1rem; }
 .project-period { color: rgba(255,255,255,.58); font-size: .7rem; font-weight: 600; letter-spacing: .05em; }

@@ -9,7 +9,7 @@ body_class: home
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
       <p class="eyebrow">Professor · Natural Language Processing</p>
-      <h1>Linguistic structure, multilingual NLP, and language-model security.</h1>
+      <h1>Multilingual NLP—from linguistic structure to model security.</h1>
       <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. I study language models across languages, with particular attention to linguistic structure, meaning, security, and privacy.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
@@ -43,7 +43,7 @@ body_class: home
         <ul class="outlet-list" aria-label="Selected publication outlets">
           {% for outlet in site.data.site_metrics.outlets %}<li>{{ outlet }}</li>{% endfor %}
         </ul>
-        <p>Peer-reviewed work across linguistics, NLP, AI security, and machine learning.</p>
+        <p>Peer-reviewed work across NLP, linguistics, AI security, and machine learning.</p>
         <a href="{{ '/publications/' | relative_url }}">Selected publications <span aria-hidden="true">→</span></a>
       </article>
       <article class="evidence-card reveal delay-2">

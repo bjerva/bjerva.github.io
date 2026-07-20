@@ -66,7 +66,7 @@ permalink: /research/
       <div class="funding-total">
         <p class="funding-overline">Portfolio represented here</p>
         <p class="funding-number"><span>{{ site.data.site_metrics.funding.prefix }}</span> {{ site.data.site_metrics.funding.total }}</p>
-        <p>PI and co-led awards represented</p>
+        <p>PI awards represented</p>
       </div>
       <div class="funding-stat">
         <strong>{{ site.data.site_metrics.funding.award_years }}</strong>
@@ -95,6 +95,7 @@ permalink: /research/
           <div class="project-award-meta">
             <p class="project-amount-label">Funding</p>
             <p class="project-amount">{{ project.amount | escape }}</p>
+            <p class="project-programme">{{ project.programme | escape }}</p>
             <p class="project-role">{{ project.role | escape }}</p>
           </div>
         </div>
