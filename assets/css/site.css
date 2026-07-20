@@ -113,6 +113,16 @@ h3 { line-height: 1.25; }
 .page-note { margin: 1.2rem 0 0; color: var(--ink-soft); font-size: .82rem; }
 .inline-links { display: flex; flex-wrap: wrap; gap: .6rem 1.3rem; margin-top: 1.5rem; }
 .inline-links a { color: var(--navy); font-size: .82rem; font-weight: 700; }
+.research-vision-section { padding-block: clamp(4rem, 8vw, 7rem); background: var(--paper-deep); }
+.research-vision-section .split-heading { margin-bottom: 2.5rem; }
+.research-vision-section .split-heading h2 { max-width: 780px; font-size: clamp(2.3rem, 4vw, 3.8rem); }
+.vision-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+.vision-card { min-height: 285px; padding: clamp(1.5rem, 3vw, 2.3rem); background: var(--paper); }
+.vision-card > span { color: var(--accent); font-family: var(--serif); font-size: 1rem; }
+.vision-card h3 { margin: 3rem 0 1rem; font-family: var(--serif); font-size: clamp(1.35rem, 2vw, 1.7rem); }
+.vision-card p { margin: 0; color: var(--ink-soft); font-size: .9rem; }
+.vision-foundations { margin: 1.4rem 0 0; color: var(--ink-soft); font-size: .82rem; }
+.vision-foundations a { color: var(--navy); font-weight: 700; }
 .topic-section { scroll-margin-top: 2rem; }
 .topic-grid { display: grid; grid-template-columns: .35fr 1.65fr; gap: clamp(3rem, 9vw, 9rem); }
 .topic-label { display: flex; gap: .8rem; align-items: baseline; border-top: 1px solid var(--line); padding-top: 1rem; }
@@ -251,8 +261,9 @@ h3 { line-height: 1.25; }
   .site-nav a[aria-current="page"]::after { display: none; }
   .hero-grid, .page-hero-grid, .editorial-grid, .callout-grid, .news-grid, .cv-grid { grid-template-columns: 1fr; }
   .portrait-wrap { max-width: 420px; }
-  .evidence-grid, .question-grid, .course-grid { grid-template-columns: 1fr; }
+  .evidence-grid, .vision-grid, .question-grid, .course-grid { grid-template-columns: 1fr; }
   .evidence-card { min-height: 0; }
+  .vision-card { min-height: 0; }
   .split-heading { grid-template-columns: 1fr; gap: 1rem; }
   .news-grid { gap: 3rem; }
   .news-heading { position: static; }

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:
-description: Professor of Natural Language Processing at Aalborg University, working on multilingual NLP, linguistic structure and semantics, and language-model security and privacy.
+description: Professor of Natural Language Processing at Aalborg University, developing linguistically grounded, trustworthy language technologies across languages and AI systems.
 body_class: home
 ---
 
@@ -9,8 +9,8 @@ body_class: home
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
       <p class="eyebrow">Professor · Natural Language Processing</p>
-      <h1>Multilingual NLP—from linguistic structure to model security.</h1>
-      <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. I study language models across languages, with particular attention to linguistic structure, meaning, security, and privacy.</p>
+      <h1>Natural language processing for trustworthy AI.</h1>
+      <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. My research develops linguistically grounded language technologies that remain reliable, secure, and trustworthy across languages, cultures, and increasingly complex AI systems.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
         <a class="button text" href="{{ '/publications/' | relative_url }}">Selected publications <span aria-hidden="true">→</span></a>
