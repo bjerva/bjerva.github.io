@@ -33,7 +33,7 @@ body_class: home
     <p class="eyebrow reveal">At a glance</p>
     <div class="evidence-grid">
       <article class="evidence-card reveal">
-        <p class="evidence-label">Research funding</p>
+        <p class="evidence-label">Funded research portfolio</p>
         <p class="evidence-value"><span>{{ site.data.site_metrics.funding.prefix }}</span> {{ site.data.site_metrics.funding.total }}</p>
         <p>{{ site.data.site_metrics.funding.summary }}</p>
         <a href="{{ '/research/#projects' | relative_url }}">Funding portfolio <span aria-hidden="true">→</span></a>
