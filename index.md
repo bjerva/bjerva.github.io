@@ -105,6 +105,6 @@ body_class: home
 <section class="contact-band">
   <div class="shell contact-band-inner">
     <div><p class="eyebrow">Collaboration</p><h2>Interested in collaboration on multilingual NLP, linguistic structure, or language-model security?</h2></div>
-    <a class="button light" href="mailto:jbjerva@cs.aau.dk">Get in touch</a>
+    <a class="button light" href="mailto:{{ site.author.email }}">Get in touch</a>
   </div>
 </section>
