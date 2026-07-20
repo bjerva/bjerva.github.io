@@ -1,0 +1,21 @@
+funding:
+  prefix: "≈ DKK"
+  total: "35M"
+  awards: "8"
+  award_years: "2022–2026"
+  summary: "Seven programmes · eight awards, including internal and co-led funding."
+  qualification: "Rounded across seven programmes and eight awards. The total includes internal AAU and co-led funding; the Google Award for Inclusion Research is shown with the Carlsberg programme. Project periods extend to 2030."
+
+outlets:
+  - "ACL"
+  - "EMNLP"
+  - "TACL"
+  - "Computational Linguistics"
+  - "AAAI"
+  - "ICML"
+
+reach:
+  citations: "2,000+"
+  media: "50+"
+  media_label: "press and media records"
+  as_of: "July 2026"

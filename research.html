@@ -9,7 +9,7 @@ permalink: /research/
 <header class="page-hero">
   <div class="shell page-hero-grid">
     <div><p class="eyebrow">Research</p><h1>Studying language models through linguistic structure.</h1></div>
-    <p class="page-lead">My research examines how linguistic structure can help us understand and evaluate language models. It spans multilingual NLP, language-model security and privacy, linguistic typology, and formal and computational semantics.</p>
+    <p class="page-lead">Three connected strands shape this work: language-model security, multilingual NLP, and formal and computational semantics.</p>
   </div>
 </header>
 
@@ -22,7 +22,6 @@ permalink: /research/
       <div class="question-grid">
         <div><h3>Information leakage</h3><p>When can embeddings or model outputs be inverted to recover sensitive source text, and how do these risks vary across languages?</p></div>
         <div><h3>Poisoning and manipulation</h3><p>How do linguistic properties interact with poisoning, model confusion, and the detection of manipulated or machine-generated text?</p></div>
-        <div><h3>Evaluation in practice</h3><p>How should security and ethics be evaluated under real deployment conditions rather than only through benchmark averages?</p></div>
       </div>
     </div>
   </div>
@@ -35,8 +34,7 @@ permalink: /research/
       <h2>Multilingual does not automatically mean inclusive.</h2>
       <p class="large-copy">Research and evaluation in multilingual NLP remain concentrated in a relatively small number of high-resource languages. My work uses linguistic typology to improve models, datasets, and evaluation practices across a broader range of languages.</p>
       <div class="question-grid">
-        <div><h3>Typological grounding</h3><p>What do language representations learn about phonology, morphology, syntax, and semantics—and when does that knowledge support transfer?</p></div>
-        <div><h3>Representative evaluation</h3><p>Which language samples support defensible claims about multilingual generalisation, and what does meaningful diversity require?</p></div>
+        <div><h3>Typology and evaluation</h3><p>How can typological evidence guide language sampling, cross-lingual transfer, and defensible claims about multilingual generalisation?</p></div>
         <div><h3>Low-resource languages</h3><p>How can data quality, targeted adaptation, and linguistic knowledge improve outcomes where digital resources are scarce?</p></div>
       </div>
     </div>
@@ -50,9 +48,8 @@ permalink: /research/
       <h2>Linguistic structure can make model behaviour easier to analyse.</h2>
       <p class="large-copy">My work draws on formal and computational semantics to investigate how models represent meaning, inference, and context—and how linguistic methods can support better evaluation and interpretability.</p>
       <div class="question-grid">
-        <div><h3>Semantic representation</h3><p>What aspects of meaning and inference are captured by current language models, and where do their representations remain inadequate?</p></div>
+        <div><h3>Meaning and inference</h3><p>What aspects of meaning, inference, and context are captured by current language models, and where do their representations remain inadequate?</p></div>
         <div><h3>Linguistic analysis</h3><p>How can syntax, morphology, semantics, and discourse help explain model behaviour beyond aggregate performance scores?</p></div>
-        <div><h3>Safety and reliability</h3><p>How can linguistically grounded analysis support sharper evaluation of model reliability, interpretability, and security?</p></div>
       </div>
     </div>
   </div>
@@ -61,31 +58,31 @@ permalink: /research/
 <section class="section section-navy" id="projects">
   <div class="shell split-heading inverse">
     <div><p class="eyebrow">Funded research</p><h2>Projects and programmes</h2></div>
-    <p>Selected externally and institutionally funded research, the teams it supports, and what each programme is already producing. Impact snapshots use project-linked VBN records and are current to July 2026.</p>
+    <p>Selected externally and institutionally funded research, the teams it supports, and work linked to each programme. VBN snapshots are current to July 2026.</p>
   </div>
 
   <div class="shell">
-    <div class="funding-overview" aria-label="Funding portfolio summary">
+    <div class="funding-overview" role="group" aria-label="Funding portfolio summary">
       <div class="funding-total">
         <p class="funding-overline">Portfolio represented here</p>
-        <p class="funding-number"><span>~DKK</span> 35M</p>
-        <p>secured as PI since 2022</p>
+        <p class="funding-number"><span>{{ site.data.site_metrics.funding.prefix }}</span> {{ site.data.site_metrics.funding.total }}</p>
+        <p>PI and co-led awards represented</p>
       </div>
       <div class="funding-stat">
-        <strong>2022–2026</strong>
+        <strong>{{ site.data.site_metrics.funding.award_years }}</strong>
         <p>Award years represented</p>
       </div>
       <div class="funding-stat">
-        <strong>7 / 8</strong>
-        <p>Programmes / awards</p>
+        <strong>{{ site.data.site_metrics.funding.awards }}</strong>
+        <p>Awards represented</p>
       </div>
     </div>
-    <p class="funding-qualification">Rounded from the programme amounts below. The total includes ~DKK 7M in internal AAU AI:X Lab funding co-led with Qiongxiu Li and the DKK 425k Google award shown with the Carlsberg programme. Project periods span 2022–2030.</p>
+    <p class="funding-qualification">{{ site.data.site_metrics.funding.qualification }}</p>
   </div>
 
   <div class="shell project-list">
     {% for project in site.data.projects %}
-      <article class="project-row">
+      <article class="project-row" id="{{ project.id | escape }}">
         <div class="project-funding">
           <div class="project-logos" role="group" aria-label="Funding body">
             {% for logo in project.logos %}
@@ -109,7 +106,7 @@ permalink: /research/
           <p class="project-description">{{ project.description | escape }}</p>
           <dl class="project-facts">
             <div><dt>Funder</dt><dd>{{ project.funder | escape }}</dd></div>
-            <div><dt>Staffing</dt><dd>{{ project.staffing | escape }}</dd></div>
+            <div><dt>Funded staffing</dt><dd>{{ project.staffing | escape }}</dd></div>
           </dl>
 
           {% if project.related_award %}
@@ -125,12 +122,12 @@ permalink: /research/
         </div>
 
         <div class="project-impact">
-          <div class="project-impact-top"><p>Impact</p><span>{{ project.impact_metric | escape }}</span></div>
+          <div class="project-impact-top"><p>Linked work</p><span>{{ project.impact_metric | escape }}</span></div>
           <p>{{ project.impact | escape }}</p>
           <a href="{{ project.url }}">Project and linked outputs on VBN <span aria-hidden="true">↗</span></a>
         </div>
       </article>
     {% endfor %}
   </div>
-  <p class="shell project-method-note">Staffing follows the latest CV; “PD-months” means funded postdoctoral researcher months. VBN totals are a dated snapshot and will grow as new outputs are linked.</p>
+  <p class="shell project-method-note">Staffing figures describe funded positions; “PD-months” means funded postdoctoral researcher months. VBN totals are a dated snapshot and will grow as new outputs are linked.</p>
 </section>

@@ -1,4 +1,6 @@
 - title: "(LM)²-SEC"
+  id: "lm2-sec"
+  award_year: 2024
   subtitle: "Linguistically Motivated Language Model Security"
   funder: "Novo Nordisk Foundation"
   logos:
@@ -7,7 +9,7 @@
   period: "2025–2030"
   amount: "DKK 9.9M"
   role: "Principal Investigator"
-  staffing: "2 PhDs · 72 PD-months"
+  staffing: "2 PhDs · 1 postdoc"
   theme: "security"
   description: "Developing linguistically grounded approaches to security and privacy in language models, including inversion attacks, information leakage, and malicious manipulation across languages."
   impact_metric: "4 linked outputs"
@@ -15,6 +17,8 @@
   url: "https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/"
 
 - title: "TRUST"
+  id: "trust"
+  award_year: 2025
   subtitle: "Building TRUST in Text: Linguistically Motivated Language Model Detection"
   funder: "Independent Research Fund Denmark · Sapere Aude"
   logos:
@@ -32,6 +36,8 @@
   url: "https://vbn.aau.dk/en/projects/building-trust-in-text-linguistically-motivated-language-model-de/"
 
 - title: "Formal Semantic Methods for AI Safety"
+  id: "formal-semantics-ai-safety"
+  award_year: 2026
   subtitle: "Formal and computational semantics for AI safety"
   funder: "Coefficient Giving"
   logos:
@@ -49,6 +55,8 @@
   url: "https://vbn.aau.dk/en/projects/formal-semantic-methods-for-ai-safety/"
 
 - title: "AI:SECURITY"
+  id: "ai-security"
+  award_year: 2025
   subtitle: "AI-enabled threats and secure AI systems"
   funder: "AI:X Labs · Aalborg University"
   logos:
@@ -67,6 +75,8 @@
   url: "https://vbn.aau.dk/en/projects/aisecurity/"
 
 - title: "Guarantees of Factuality in LLM-based Extraction of Financial KPIs"
+  id: "factual-kpis"
+  award_year: 2024
   subtitle: "Industrial PhD with Alipes Capital"
   funder: "Innovation Fund Denmark"
   logos:
@@ -83,6 +93,8 @@
   url: "https://vbn.aau.dk/en/projects/guarantees-of-factuality-in-llm-based-extraction-of-financial-kpi/"
 
 - title: "Multilingual Modelling for Resource-Poor Languages"
+  id: "multilingual-resource-poor"
+  award_year: 2022
   subtitle: "Semper Ardens: Accelerate"
   funder: "Carlsberg Foundation"
   logos:
@@ -95,7 +107,7 @@
   theme: "multilingual"
   description: "Fundamental research on linguistic typology, multilingual modelling, and evaluation for languages underserved by current NLP systems."
   impact_metric: "40 outputs · 35 activities"
-  impact: "The programme has built a substantial body of work on typological diversity, multilingual embedding inversion, and low-resource evaluation, with linked publications at ACL, EMNLP, TACL, and ICML."
+  impact: "VBN currently links 40 outputs spanning typological diversity, multilingual embedding inversion, and low-resource evaluation, including publications at ACL, EMNLP, TACL, and ICML."
   related_award:
     title: "Google Award for Inclusion Research · CREOLE"
     amount: "DKK 425k"
@@ -106,6 +118,8 @@
   url: "https://vbn.aau.dk/en/projects/multilingual-modelling-for-resource-poor-languages/"
 
 - title: "Digital Twins for Abundant Feedback"
+  id: "digital-twins"
+  award_year: 2024
   subtitle: "Novel Feedback Paradigms via Explainable Multilingual NLP"
   funder: "Villum Foundation · Synergy"
   logos:
@@ -114,7 +128,7 @@
       treatment: "invert"
   period: "2024–2026"
   amount: "DKK 3M"
-  role: "Principal Investigator (methods)"
+  role: "Co-PI / NLP methods lead"
   staffing: "24 PD-months"
   theme: "education"
   description: "Studying explainable multilingual NLP for scalable, high-quality feedback in education."
