@@ -112,7 +112,7 @@ permalink: /research/
   <div class="shell">
     <div class="funding-overview" role="group" aria-label="Funding portfolio summary">
       <div class="funding-total">
-        <p class="funding-overline">Funding secured as Principal Investigator</p>
+        <p class="funding-overline">PI-led external awards</p>
         <p class="funding-number"><span>{{ site.data.site_metrics.funding.prefix }}</span> {{ site.data.site_metrics.funding.total }}</p>
         <p>Across {{ site.data.site_metrics.funding.awards }} awards</p>
       </div>
@@ -145,6 +145,7 @@ permalink: /research/
             <p class="project-amount">{{ project.amount | escape }}</p>
             <p class="project-programme">{{ project.programme | escape }}</p>
             <p class="project-role">{{ project.role | escape }}</p>
+            <p class="project-funding-share"><span>Funding share</span>{{ project.funding_share | escape }}</p>
           </div>
         </div>
 
@@ -165,6 +166,7 @@ permalink: /research/
                 <p>Related award</p>
                 <h4>{{ project.related_award.title | escape }}</h4>
                 <p>{{ project.related_award.amount | escape }} · {{ project.related_award.staffing | escape }}</p>
+                <p class="related-award-funding-share"><span>Funding share</span>{{ project.related_award.funding_share | escape }}</p>
               </div>
             </div>
           {% endif %}
