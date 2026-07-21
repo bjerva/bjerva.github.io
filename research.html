@@ -118,7 +118,7 @@ permalink: /research/
           <div class="project-logos" role="group" aria-label="Funding body">
             {% for logo in project.logos %}
               <div class="project-logo{% if logo.treatment == 'invert' %} project-logo--invert{% endif %}{% if logo.label %} project-logo--labelled{% endif %}">
-                <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | escape }} logo" loading="lazy" decoding="async">
+                <img src="{% if logo.src contains '://' %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt | escape }} logo" loading="lazy" decoding="async">
                 {% if logo.label %}<span aria-hidden="true">{{ logo.label | escape }}</span>{% endif %}
               </div>
             {% endfor %}
@@ -128,7 +128,7 @@ permalink: /research/
             <p class="project-amount">{{ project.amount | escape }}</p>
             <p class="project-programme">{{ project.programme | escape }}</p>
             <p class="project-role">{{ project.role | escape }}</p>
-            <p class="project-funding-share"><span>Funding share</span>{{ project.funding_share | escape }}</p>
+            {% if project.funding_share %}<p class="project-funding-share"><span>Funding share</span>{{ project.funding_share | escape }}</p>{% endif %}
           </div>
         </div>
 
