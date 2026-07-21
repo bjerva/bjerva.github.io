@@ -10,7 +10,7 @@ body_class: home
     <div class="hero-copy reveal">
       <p class="eyebrow">Professor · Natural Language Processing</p>
       <h1>Linguistically grounded NLP for trustworthy AI.</h1>
-      <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. My fundamental research investigates how language-based AI systems encode and use meaning, what shapes generalisation across languages and cultures, and when and why they fail. These insights inform work on trustworthy language technologies—from multilingual models to increasingly complex AI systems.</p>
+      <p class="hero-lead">I am Professor of Natural Language Processing at Aalborg University and lead <a href="{{ '/group/' | relative_url }}">AAU-NLP</a>. My fundamental research investigates how language-based AI systems encode and use meaning, what shapes generalisation across languages and cultures, and when and why they fail. These insights inform work on trustworthy language technologies, with particular emphasis on security, privacy, and factual reliability—from multilingual models to increasingly complex AI systems.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
         <a class="button text" href="{{ '/publications/' | relative_url }}">Selected publications <span aria-hidden="true">→</span></a>
