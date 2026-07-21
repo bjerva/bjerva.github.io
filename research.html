@@ -112,17 +112,17 @@ permalink: /research/
   <div class="shell">
     <div class="funding-overview" role="group" aria-label="Funding portfolio summary">
       <div class="funding-total">
-        <p class="funding-overline">Portfolio represented here</p>
+        <p class="funding-overline">Funding secured as Principal Investigator</p>
         <p class="funding-number"><span>{{ site.data.site_metrics.funding.prefix }}</span> {{ site.data.site_metrics.funding.total }}</p>
-        <p>PI awards represented</p>
+        <p>Across {{ site.data.site_metrics.funding.awards }} awards</p>
+      </div>
+      <div class="funding-stat">
+        <strong>{{ site.data.site_metrics.funding.co_led_internal }}</strong>
+        <p>Co-led, internal funding</p>
       </div>
       <div class="funding-stat">
         <strong>{{ site.data.site_metrics.funding.award_years }}</strong>
         <p>Award years represented</p>
-      </div>
-      <div class="funding-stat">
-        <strong>{{ site.data.site_metrics.funding.awards }}</strong>
-        <p>Awards represented</p>
       </div>
     </div>
     <p class="funding-qualification">{{ site.data.site_metrics.funding.qualification }}</p>
