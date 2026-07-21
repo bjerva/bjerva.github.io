@@ -1,11 +1,9 @@
 funding:
   prefix: "≈ DKK"
-  total: "28M"
-  awards: "7"
-  co_led_internal: "~DKK 7M"
-  award_years: "2022–2026"
-  summary: "≈DKK 28M in PI-led external awards across seven awards, plus ~DKK 7M co-led and internally funded through AI:SECURITY."
-  qualification: "Award values are rounded. Funding share is 100% unless noted; Digital Twins and AI:SECURITY are 50% co-led programmes. AI:SECURITY is shown separately as AAU-internally funded, while the Google Award for Inclusion Research is displayed with the Carlsberg programme. Project periods extend to 2030."
+  total: "25M"
+  shared_total: "10M"
+  summary: "Plus ≈DKK 10M in shared or internal programmes."
+  qualification: "Full award values; funding shares are shown per project."
 
 outlets:
   - "ACL"
