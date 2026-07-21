@@ -139,6 +139,10 @@ h3 { line-height: 1.25; }
 .question-grid > div { padding-top: 1.4rem; border-top: 1px solid var(--line); }
 .question-grid h3 { font-family: var(--serif); font-size: 1.25rem; }
 .question-grid p { color: var(--ink-soft); font-size: .9rem; }
+.strand-publications { display: flex; flex-wrap: wrap; gap: .35rem 1rem; align-items: baseline; margin: 2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .76rem; }
+.strand-publications-label { color: var(--accent); font-size: .62rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.strand-publications a { color: var(--navy); font-weight: 600; white-space: nowrap; }
+.strand-publications a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .funding-overview { display: grid; grid-template-columns: 1.4fr .8fr .8fr; border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.045); }
 .funding-total, .funding-stat { min-height: 190px; padding: clamp(1.5rem, 3vw, 2.4rem); }
 .funding-stat { display: flex; flex-direction: column; justify-content: flex-end; border-left: 1px solid rgba(255,255,255,.18); }
@@ -313,4 +317,3 @@ h3 { line-height: 1.25; }
   .footer-contact { grid-column: auto; }
   .footer-base { gap: 1rem; flex-direction: column; }
 }
-

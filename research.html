@@ -2,22 +2,22 @@
 layout: default
 title: Research
 section: research
-description: Johannes Bjerva's research vision for linguistically grounded, trustworthy AI, supported by work in language-model security, multilingual NLP, and semantics.
+description: Johannes Bjerva's research on linguistically grounded, trustworthy AI across security, privacy, factuality, evaluation, multilingual NLP, and semantics.
 permalink: /research/
 ---
 
 <header class="page-hero">
   <div class="shell page-hero-grid">
     <div><p class="eyebrow">Research vision</p><h1>Language as a foundation for trustworthy AI.</h1></div>
-    <p class="page-lead">Language mediates how modern AI systems represent and retrieve knowledge, use tools, and interact with people and other systems. My research asks how language-based AI can remain reliable, secure, and trustworthy across languages and contexts.</p>
+    <p class="page-lead">Language mediates how modern AI systems represent and retrieve knowledge, use tools, and interact with people and other systems. My research asks how linguistic insight can help make these systems trustworthy across languages and contexts.</p>
   </div>
 </header>
 
 <section class="section research-vision-section" aria-labelledby="programme-heading">
   <div class="shell">
     <div class="split-heading">
-      <div><p class="eyebrow">A connected research programme</p><h2 id="programme-heading">From understanding language to engineering reliable systems.</h2></div>
-      <p>My research follows a single arc: from understanding language and meaning, through engineering trustworthy language technologies, to ensuring that these principles continue to hold in increasingly complex AI systems.</p>
+      <div><p class="eyebrow">A connected research programme</p><h2 id="programme-heading">From linguistic foundations to trustworthy AI systems.</h2></div>
+      <p>My research follows a single arc: from understanding language and meaning, through studying and improving trustworthy language technologies, to extending these principles to increasingly complex AI systems.</p>
     </div>
     <ol class="programme-arc" aria-label="Research programme progression">
       <li class="programme-stage reveal">
@@ -26,7 +26,7 @@ permalink: /research/
       </li>
       <li class="programme-stage reveal delay-1">
         <h3>Trustworthy systems</h3>
-        <p>Use linguistic insight to study and improve robustness, security, privacy, factuality, and evaluation.</p>
+        <p>Study whether systems are secure, privacy-preserving, safe, and factually reliable—and develop evaluation methods that make those claims defensible across languages and contexts.</p>
       </li>
       <li class="programme-stage reveal delay-2">
         <h3>Next frontier</h3>
@@ -38,49 +38,67 @@ permalink: /research/
 
 <section class="section strands-intro" aria-labelledby="strands-heading">
   <div class="shell split-heading">
-    <div><p class="eyebrow">Established research</p><h2 id="strands-heading">Three research strands underpin the programme.</h2></div>
-    <p>These are distinct but overlapping areas of sustained work. Together, they provide the linguistic, multilingual, and security foundations for the broader research programme.</p>
+    <div><p class="eyebrow">Established research</p><h2 id="strands-heading">Four established research strands anchor the programme.</h2></div>
+    <p>Two strands focus directly on core trustworthiness questions: language-model security and privacy, and factuality and evaluation. Multilingual NLP and formal and computational semantics provide foundations that run across the programme. Across all four, evaluation tests whether claims hold across languages and contexts.</p>
   </div>
 </section>
 
 <section class="section topic-section research-strand-first" id="security">
   <div class="shell topic-grid">
-    <div class="topic-label"><span>Research strand</span><p>Language-model security</p></div>
+    <div class="topic-label"><span>Research strand</span><p>Language-model security and privacy</p></div>
     <div class="topic-copy">
-      <h2>Linguistic perspectives on language-model security.</h2>
+      <h2>Linguistic perspectives on language-model security and privacy.</h2>
       <p class="large-copy">I study security and privacy risks in language models and text embeddings, including inversion attacks, information leakage, poisoning, and manipulated or machine-generated text. A central question is how these risks and possible defences vary across languages.</p>
       <div class="question-grid">
         <div><h3>Information leakage</h3><p>When can embeddings or model outputs be inverted to recover sensitive source text, and how do these risks vary across languages?</p></div>
         <div><h3>Poisoning and manipulation</h3><p>How do linguistic properties interact with poisoning, model confusion, and the detection of manipulated or machine-generated text?</p></div>
       </div>
+      <p class="strand-publications"><span class="strand-publications-label">Selected papers</span><a href="https://aclanthology.org/2024.acl-long.422/" aria-label="Read Text Embedding Inversion Security for Multilingual Language Models, Chen et al., ACL 2024">Chen et al., ACL 2024</a><a href="https://aclanthology.org/2025.tacl-1.33/" aria-label="Read NLP Security and Ethics, in the Wild, Lent et al., TACL 2025">Lent et al., TACL 2025</a></p>
     </div>
   </div>
 </section>
 
-<section class="section topic-section section-tint" id="multilingual">
+<section class="section topic-section section-tint" id="factuality">
+  <div class="shell topic-grid">
+    <div class="topic-label"><span>Research strand</span><p>Factuality and evaluation</p></div>
+    <div class="topic-copy">
+      <h2>Reliable AI requires factual grounding and defensible evaluation.</h2>
+      <p class="large-copy">I study how knowledge grounding, data quality, benchmark design, and language sampling shape claims about output factuality and model generalisation. This includes evaluating hallucinations, auditing multilingual data, and designing benchmarks whose conclusions hold beyond narrow sets of languages and settings.</p>
+      <div class="question-grid">
+        <div><h3>Factual grounding</h3><p>How can structured knowledge and provenance help detect, evaluate, and reduce unsupported model outputs?</p></div>
+        <div><h3>Defensible evaluation</h3><p>How should datasets, language sampling, and metrics be designed so that claims about model reliability generalise beyond narrow benchmarks?</p></div>
+      </div>
+      <p class="strand-publications"><span class="strand-publications-label">Selected papers</span><a href="https://doi.org/10.1016/j.websem.2024.100844" aria-label="Read Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective, Lavrinovics et al., Journal of Web Semantics 2025">Lavrinovics et al., JWS 2025</a><a href="https://aclanthology.org/2026.cl-1.7/" aria-label="Read A Principled Framework for Evaluating on Typologically Diverse Languages, Ploeger et al., Computational Linguistics 2026">Ploeger et al., CL 2026</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section topic-section" id="multilingual">
   <div class="shell topic-grid">
     <div class="topic-label"><span>Research strand</span><p>Multilingual NLP</p></div>
     <div class="topic-copy">
       <h2>Multilingual does not automatically mean inclusive.</h2>
-      <p class="large-copy">Research and evaluation in multilingual NLP remain concentrated in a relatively small number of high-resource languages. My work uses linguistic typology to improve models, datasets, and evaluation practices across a broader range of languages.</p>
+      <p class="large-copy">Multilingual NLP remains concentrated in a relatively small set of high-resource languages. My work uses linguistic typology, careful language sampling, and targeted adaptation to understand cross-lingual generalisation and improve outcomes across a broader range of languages.</p>
       <div class="question-grid">
-        <div><h3>Typology and evaluation</h3><p>How can typological evidence guide language sampling, cross-lingual transfer, and defensible claims about multilingual generalisation?</p></div>
+        <div><h3>Typology and generalisation</h3><p>How can typological evidence guide language sampling and cross-lingual transfer—and reveal when multilingual claims do not generalise?</p></div>
         <div><h3>Low-resource languages</h3><p>How can data quality, targeted adaptation, and linguistic knowledge improve outcomes where digital resources are scarce?</p></div>
       </div>
+      <p class="strand-publications"><span class="strand-publications-label">Selected papers</span><a href="https://aclanthology.org/J19-2006/" aria-label="Read What Do Language Representations Really Represent?, Bjerva et al., Computational Linguistics 2019">Bjerva et al., CL 2019</a><a href="https://aclanthology.org/2024.tacl-1.53/" aria-label="Read CreoleVal: Multilingual Multitask Benchmarks for Creoles, Lent et al., TACL 2024">Lent et al., TACL 2024</a></p>
     </div>
   </div>
 </section>
 
-<section class="section topic-section" id="semantics">
+<section class="section topic-section section-tint" id="semantics">
   <div class="shell topic-grid">
     <div class="topic-label"><span>Research strand</span><p>Formal and computational semantics</p></div>
     <div class="topic-copy">
       <h2>Linguistic structure can make model behaviour easier to analyse.</h2>
-      <p class="large-copy">My work draws on formal and computational semantics to investigate how models represent meaning, inference, and context—and how linguistic methods can support better evaluation and interpretability.</p>
+      <p class="large-copy">My work draws on formal and computational semantics to investigate how models encode meaning and context, where inference fails, and how explicit linguistic structure can support evaluation, interpretability, and safety analysis.</p>
       <div class="question-grid">
         <div><h3>Meaning and inference</h3><p>What aspects of meaning, inference, and context are captured by current language models, and where do their representations remain inadequate?</p></div>
         <div><h3>Linguistic analysis</h3><p>How can syntax, morphology, semantics, and discourse help explain model behaviour beyond aggregate performance scores?</p></div>
       </div>
+      <p class="strand-publications"><span class="strand-publications-label">Selected papers</span><a href="https://aclanthology.org/E17-2039/" aria-label="Read The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations Annotated with Compositional Meaning Representations, Abzianidze et al., EACL 2017">Abzianidze et al., EACL 2017</a><a href="https://aclanthology.org/S14-2114/" aria-label="Read The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity, Bjerva et al., SemEval 2014">Bjerva et al., SemEval 2014</a></p>
     </div>
   </div>
 </section>
@@ -162,4 +180,3 @@ permalink: /research/
   </div>
   <p class="shell project-method-note">Staffing figures describe funded positions; “PD-months” means funded postdoctoral researcher months. VBN totals are a dated snapshot and will grow as new outputs are linked.</p>
 </section>
-
