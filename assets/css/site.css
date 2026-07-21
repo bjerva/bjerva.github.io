@@ -157,6 +157,7 @@ h3 { line-height: 1.25; }
 .project-logo span { color: rgba(255,255,255,.9); font-size: .7rem; font-weight: 700; line-height: 1.15; }
 .project-logo--labelled img { flex: 0 0 38px; width: 38px; height: 38px; }
 .project-logo--invert img { filter: brightness(0) invert(1); opacity: .92; }
+.project-logo img[alt^="ALIPES"] { max-width: 145px; max-height: 28px; margin-inline: auto; object-position: center; }
 .project-award-meta { margin-top: 1.7rem; }
 .project-amount-label { margin-bottom: .25rem; color: var(--accent-light); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .project-amount { margin-bottom: .4rem; color: white; font-family: var(--serif); font-size: clamp(1.75rem, 3vw, 2.25rem); font-weight: 600; letter-spacing: -.025em; line-height: 1; }
