@@ -2,9 +2,37 @@ const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.site-nav');
 
 if (navToggle && nav) {
-  navToggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
+  const setNavOpen = (open, restoreFocus = false) => {
+    nav.classList.toggle('open', open);
     navToggle.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('nav-open', open);
+    if (restoreFocus) navToggle.focus();
+  };
+
+  navToggle.addEventListener('click', () => {
+    setNavOpen(!nav.classList.contains('open'));
+  });
+
+  nav.addEventListener('click', (event) => {
+    if (event.target.closest('a')) setNavOpen(false);
+  });
+
+  document.addEventListener('click', (event) => {
+    if (nav.classList.contains('open') && !event.target.closest('.nav-wrap')) {
+      setNavOpen(false);
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && nav.classList.contains('open')) {
+      setNavOpen(false, true);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900 && nav.classList.contains('open')) {
+      setNavOpen(false);
+    }
   });
 }
 
