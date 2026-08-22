@@ -1,4 +1,8 @@
 - date: "2026"
+  title: "Three papers at EMNLP 2026"
+  text: "Three quite different papers were accepted: on language similarity in NLP, information structure in vision-language models, and semantic leakage from image embeddings. This is especially meaningful to me as it's a special milestone for the people behind them - these are the final PhD thesis papers for Yiyi and Marcell, and the first for Tao."
+  url: "/publications/"
+- date: "2026"
   title: "Typologically diverse evaluation"
   text: "Published in Computational Linguistics, bringing several years of work on defensible multilingual evaluation into one framework."
   url: "https://aclanthology.org/2026.cl-1.7/"

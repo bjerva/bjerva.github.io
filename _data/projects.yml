@@ -15,7 +15,7 @@
   theme: "security"
   description: "Developing linguistically grounded approaches to security and privacy in language models, including inversion attacks, information leakage, and malicious manipulation across languages."
   impact_metric: "4 linked outputs"
-  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL 2026."
+  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026."
   url: "https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/"
 
 - title: "TRUST"
@@ -124,7 +124,7 @@
   theme: "multilingual"
   description: "Fundamental research on linguistic typology, multilingual modelling, and evaluation for languages underserved by current NLP systems."
   impact_metric: "40 outputs · 35 activities"
-  impact: "VBN currently links 40 outputs spanning typological diversity, multilingual embedding inversion, and low-resource evaluation, including publications at ACL, EMNLP, TACL, and ICML."
+  impact: "VBN currently links 40 outputs spanning typological diversity, multilingual embedding inversion, and low-resource evaluation; the latest EMNLP 2026 papers examine activation-based language similarity and information structure in vision-language models."
   related_award:
     title: "Google Award for Inclusion Research · CREOLE"
     amount: "DKK 425k"
