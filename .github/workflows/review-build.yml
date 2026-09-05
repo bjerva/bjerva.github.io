@@ -1,0 +1,29 @@
+name: Build review site
+
+on:
+  push:
+    branches: ["audit/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build with the GitHub Pages Jekyll environment
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check rendered pages and internal links
+        run: python3 _scripts/verify_site.py _site
+      - name: Prepare a Netlify review artifact
+        run: python3 _scripts/prepare_preview.py _site _preview
+      - uses: actions/upload-artifact@v4
+        with:
+          name: review-preview
+          path: _preview/
+          retention-days: 14
+          if-no-files-found: error

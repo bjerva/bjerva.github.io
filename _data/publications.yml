@@ -1,7 +1,7 @@
 - year: 2026
   title: "TBLS: Transition-Based Language Similarity through Activation Perturbation"
   authors: "Tao Ren, Johannes Bjerva, and Qiongxiu Li"
-  venue: "EMNLP 2026 · Accepted"
+  venue: "EMNLP 2026"
   themes: ["Multilingual NLP", "Linguistics & Semantics"]
   summary: "Introduces a behaviour-driven language-similarity measure based on perturbation-induced cross-lingual transitions, showing stable patterns across five multilingual models and two corpora covering 44 languages."
   url: "https://openreview.net/forum?id=TrNWQl6zPS"
@@ -9,7 +9,7 @@
 - year: 2026
   title: "When Discourse Pressures Conflict: Information Structure in Vision-Language Model Outputs"
   authors: "Marcell Fekete, Johannes Bjerva, and Tamás Káldi"
-  venue: "EMNLP 2026 · Accepted"
+  venue: "EMNLP 2026"
   themes: ["Linguistics & Semantics", "Factuality & Evaluation"]
   summary: "Compares six vision-language models with human speakers in a Hungarian information-structure task, finding that models track discourse context but over-regularise interacting linguistic pressures into narrow response templates."
   url: "https://openreview.net/forum?id=eB1qFlfQh1"
@@ -17,7 +17,7 @@
 - year: 2026
   title: "Few-shot Semantic Recovery Attacks on Image Embeddings"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
-  venue: "EMNLP 2026 · Accepted"
+  venue: "EMNLP 2026"
   themes: ["Security & Privacy"]
   summary: "Introduces CRAFT, a few-shot black-box attack that recovers captions and sensitive attributes from image embeddings across five open-source and proprietary embedders, while tested defences fail to close the leak without reducing downstream utility."
   url: "https://openreview.net/forum?id=DNfp3FMWS2"

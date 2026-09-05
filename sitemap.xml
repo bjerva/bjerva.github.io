@@ -6,6 +6,7 @@ layout: null
   <url><loc>{{ '/' | absolute_url }}</loc></url>
   <url><loc>{{ '/research/' | absolute_url }}</loc></url>
   <url><loc>{{ '/publications/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/collaborate/' | absolute_url }}</loc></url>
   <url><loc>{{ '/group/' | absolute_url }}</loc></url>
   <url><loc>{{ '/teaching/' | absolute_url }}</loc></url>
   <url><loc>{{ '/service/' | absolute_url }}</loc></url>

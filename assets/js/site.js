@@ -30,7 +30,7 @@ if (navToggle && nav) {
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 900 && nav.classList.contains('open')) {
+    if (window.innerWidth > 1050 && nav.classList.contains('open')) {
       setNavOpen(false);
     }
   });

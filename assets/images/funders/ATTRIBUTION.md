@@ -4,7 +4,7 @@ The logos in this directory identify the organisations named on the Research pag
 
 - Aalborg University: mark reproduced from the official AAU website header.
 - Carlsberg Foundation: English white web SVG from the foundation's official logo pack.
-- Coefficient Giving: “Coefficient Logo Green” by Aarongertler, downloaded from Wikimedia Commons, resized without other changes, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- Coefficient Giving: [“Coefficient Logo Green” by Aarongertler](https://commons.wikimedia.org/wiki/File:Coefficient_Logo_Green.png), resized and displayed with inverted colours, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - Google: official Google wordmark asset.
 - Independent Research Fund Denmark and Innovation Fund Denmark: official transparent web logo assets.
 - Novo Nordisk Foundation: official white horizontal PNG for dark backgrounds, downloaded from the foundation's press resources.

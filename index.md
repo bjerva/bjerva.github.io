@@ -76,7 +76,7 @@ body_class: home
 
 <section class="contact-band">
   <div class="shell contact-band-inner">
-    <div><p class="eyebrow">Collaboration</p><h2>For research, media, or policy collaboration.</h2></div>
-    <a class="button light" href="mailto:jbjerva@cs.aau.dk">Get in touch</a>
+    <div><p class="eyebrow">Collaboration</p><h2>Building a research consortium or joint project?</h2></div>
+    <a class="button light" href="{{ '/collaborate/' | relative_url }}">Explore collaboration</a>
   </div>
 </section>

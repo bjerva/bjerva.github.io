@@ -17,3 +17,11 @@ Only officially confirmed courses and public research descriptions should be inc
 Before publishing, verify publication metadata against the ACL Anthology or publisher record and institutional details against current VBN pages and the latest approved CV.
 
 Project impact counts are dated snapshots from VBN. Keep the “current to” date on the Research page aligned with the records in `_data/projects.yml`, and express postdoctoral staffing as funded PD-months when that is how the award is specified.
+
+## Reviewing changes
+
+The `audit/september-2026` branch contains the September 2026 audit and collaboration page. The `Build review site` workflow runs on pushes to `audit/**`, builds with the GitHub Pages Jekyll environment, and checks rendered pages, internal links, fragment targets, and the sitemap. It does not deploy GitHub Pages.
+
+The workflow's `review-preview` artifact is ready for a manual Netlify deployment. Preview preparation disables search indexing and Cloudflare Analytics in the artifact; production source settings are preserved. Download and extract that artifact, then deploy its contents as the Netlify publish directory. Production remains on `master` until the review is approved.
+
+The collaboration page links to official programme descriptions rather than listing call deadlines. Review those links and the proposed contributions when preparing a specific proposal.
