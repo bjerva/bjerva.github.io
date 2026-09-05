@@ -24,4 +24,6 @@ The `audit/september-2026` branch contains the September 2026 audit and collabor
 
 The workflow's `review-preview` artifact is ready for a manual Netlify deployment. Preview preparation disables search indexing and Cloudflare Analytics in the artifact; production source settings are preserved. Download and extract that artifact, then deploy its contents as the Netlify publish directory. Production remains on `master` until the review is approved.
 
+Alternatively, connect Netlify directly to this repository and select `audit/september-2026` as the deployment branch. `netlify.toml` builds and checks the site on Netlify, then publishes the same preview output. Its ignore rule skips builds from other branches. This route does not require GitHub Actions to run.
+
 The collaboration page links to official programme descriptions rather than listing call deadlines. Review those links and the proposed contributions when preparing a specific proposal.

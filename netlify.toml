@@ -1,0 +1,9 @@
+# Netlify hosts the review copy; GitHub Pages remains the production host.
+[build]
+  command = "bundle exec jekyll build && python3 _scripts/verify_site.py _site && python3 _scripts/prepare_preview.py _site _preview"
+  publish = "_preview"
+  ignore = 'test "$BRANCH" != "audit/september-2026"'
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.3"
