@@ -34,6 +34,8 @@ if (navToggle && nav) {
       setNavOpen(false);
     }
   });
+
+  document.documentElement.classList.add('nav-ready');
 }
 
 const reveals = document.querySelectorAll('.reveal');
@@ -47,6 +49,7 @@ if ('IntersectionObserver' in window) {
     });
   }, { threshold: 0.08 });
   reveals.forEach((item) => observer.observe(item));
+  document.documentElement.classList.add('reveal-ready');
 } else {
   reveals.forEach((item) => item.classList.add('visible'));
 }

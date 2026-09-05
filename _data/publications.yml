@@ -1,7 +1,7 @@
 - year: 2026
   title: "TBLS: Transition-Based Language Similarity through Activation Perturbation"
   authors: "Tao Ren, Johannes Bjerva, and Qiongxiu Li"
-  venue: "EMNLP 2026"
+  venue: "EMNLP 2026 · Accepted"
   themes: ["Multilingual NLP", "Linguistics & Semantics"]
   summary: "Introduces a behaviour-driven language-similarity measure based on perturbation-induced cross-lingual transitions, showing stable patterns across five multilingual models and two corpora covering 44 languages."
   url: "https://openreview.net/forum?id=TrNWQl6zPS"
@@ -9,7 +9,7 @@
 - year: 2026
   title: "When Discourse Pressures Conflict: Information Structure in Vision-Language Model Outputs"
   authors: "Marcell Fekete, Johannes Bjerva, and Tamás Káldi"
-  venue: "EMNLP 2026"
+  venue: "EMNLP 2026 · Accepted"
   themes: ["Linguistics & Semantics", "Factuality & Evaluation"]
   summary: "Compares six vision-language models with human speakers in a Hungarian information-structure task, finding that models track discourse context but over-regularise interacting linguistic pressures into narrow response templates."
   url: "https://openreview.net/forum?id=eB1qFlfQh1"
@@ -17,7 +17,7 @@
 - year: 2026
   title: "Few-shot Semantic Recovery Attacks on Image Embeddings"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
-  venue: "EMNLP 2026"
+  venue: "EMNLP 2026 · Accepted"
   themes: ["Security & Privacy"]
   summary: "Introduces CRAFT, a few-shot black-box attack that recovers captions and sensitive attributes from image embeddings across five open-source and proprietary embedders, while tested defences fail to close the leak without reducing downstream utility."
   url: "https://openreview.net/forum?id=DNfp3FMWS2"
@@ -61,6 +61,30 @@
   themes: ["Factuality & Evaluation"]
   summary: "Grounds reasoning traces in knowledge-graph paths and improves factuality across six open-domain question-answering benchmarks using 3.9K training examples."
   url: "https://aclanthology.org/2026.findings-acl.561/"
+
+- year: 2026
+  title: "Effective Performance Measurement: Challenges and Opportunities in KPI Extraction from Earnings Calls"
+  authors: "Rasmus T. Aavang, Rasmus Tjalk-Bøggild, Alexandre Iolov, Giovanni Rizzi, Mike Zhang, and Johannes Bjerva"
+  venue: "ACL 2026 · Industry Track"
+  themes: ["Factuality & Evaluation"]
+  summary: "Introduces benchmarks for financial information extraction from earnings calls, documenting domain-shift failures and evaluating open-ended LLM extraction with human experts."
+  url: "https://aclanthology.org/2026.acl-industry.100/"
+
+- year: 2026
+  title: "HiFi-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings"
+  authors: "Rasmus T. Aavang, Giovanni Rizzi, Rasmus Tjalk-Bøggild, Alexandre Iolov, Mike Zhang, and Johannes Bjerva"
+  venue: "LREC 2026"
+  themes: ["Factuality & Evaluation"]
+  summary: "Introduces a financial information-extraction dataset with hierarchical labels, supporting evaluation of KPI classification, extraction, and structured extraction."
+  url: "https://aclanthology.org/2026.lrec-1.30/"
+
+- year: 2026
+  title: "SEFL: A Framework for Generating Synthetic Educational Assignment Feedback with LLM Agents"
+  authors: "Mike Zhang, Amalie Pernille Dilling, Léon Gondelman, Niels Erik Ruan Lyngdorf, Euan D. Lindsay, and Johannes Bjerva"
+  venue: "LREC 2026"
+  themes: ["NLP for Education"]
+  summary: "Uses teacher–student LLM simulations to generate educational feedback data, improving smaller models’ feedback quality in expert and model-based evaluations."
+  url: "https://aclanthology.org/2026.lrec-1.811/"
 
 - year: 2025
   title: "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"

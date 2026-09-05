@@ -14,7 +14,7 @@
   staffing: "2 PhDs · 72 PD-months"
   theme: "security"
   description: "Developing linguistically grounded approaches to security and privacy in language models, including inversion attacks, information leakage, and malicious manipulation across languages."
-  impact_metric: "4 linked outputs"
+  impact_metric: "9 VBN records"
   impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026."
   url: "https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/"
 
@@ -82,7 +82,7 @@
   staffing: "4 PhDs · main supervisor for 2"
   theme: "security"
   description: "Combining NLP and cybersecurity research to study AI-enabled threats and the security of language models in societal applications."
-  impact_metric: "5 linked outputs"
+  impact_metric: "7 VBN records"
   impact: "Linked work spans multilingual memorisation, personal-information leakage, privacy-preserving graph aggregation, and safer model sharing, with papers at EMNLP 2025, ACL 2026, and ICASSP 2026."
   url: "https://vbn.aau.dk/en/projects/aisecurity/"
 
@@ -103,8 +103,8 @@
   staffing: "Industrial PhD"
   theme: "factuality"
   description: "Research on factual, knowledge-grounded extraction of financial indicators from earnings transcripts and company filings."
-  impact_metric: "1 dataset · 1 paper"
-  impact: "The project has delivered HiFi-KPI: a public dataset and accompanying paper for hierarchical KPI extraction from financial filings, linking applied research to reusable infrastructure."
+  impact_metric: "1 dataset · 2 published papers"
+  impact: "The project has delivered HiFi-KPI, a public dataset with an LREC 2026 paper, and an ACL 2026 Industry Track paper on KPI extraction from earnings calls."
   url: "https://vbn.aau.dk/en/projects/guarantees-of-factuality-in-llm-based-extraction-of-financial-kpi/"
 
 - title: "Multilingual Modelling for Resource-Poor Languages"
@@ -123,8 +123,8 @@
   staffing: "3 PhDs · 36 PD-months"
   theme: "multilingual"
   description: "Fundamental research on linguistic typology, multilingual modelling, and evaluation for languages underserved by current NLP systems."
-  impact_metric: "40 outputs · 35 activities"
-  impact: "VBN currently links 40 outputs spanning typological diversity, multilingual embedding inversion, and low-resource evaluation; the latest EMNLP 2026 papers examine activation-based language similarity and information structure in vision-language models."
+  impact_metric: "44 VBN records · 35 activities"
+  impact: "Completed in August 2026. Linked research spans typological diversity, multilingual embedding inversion, and low-resource evaluation; EMNLP 2026 papers examine semantic recovery from image embeddings and information structure in vision-language models."
   related_award:
     title: "Google Award for Inclusion Research · CREOLE"
     amount: "DKK 425k"
@@ -152,6 +152,6 @@
   staffing: "24 PD-months"
   theme: "education"
   description: "Studying explainable multilingual NLP for scalable, high-quality feedback in education."
-  impact_metric: "13 outputs · 7 media items"
+  impact_metric: "16 VBN records · 7 media items"
   impact: "Linked work connects synthetic educational feedback with LLM agents and knowledge-grounded factuality, alongside sustained public discussion of AI-supported teaching and assessment."
   url: "https://vbn.aau.dk/en/projects/digital-twins-for-abundant-feedback-novel-feedback-paradigms-via-/"
