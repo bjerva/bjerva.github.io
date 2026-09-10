@@ -1,4 +1,12 @@
 - year: 2026
+  title: "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning"
+  authors: "Wenrui Yu, Changlong Ji, Johannes Bjerva, and Qiongxiu Li"
+  venue: "CCS 2026 · Accepted"
+  themes: ["Security & Privacy"]
+  summary: "Introduces a lattice-based reconstruction attack showing how colluding semi-honest nodes can recover protected model updates from local secure aggregates under sparse decentralized federated learning topologies, enabling downstream reconstruction of private training data."
+  url: "https://vbn.aau.dk/en/publications/when-topology-betrays-privacy-lattice-based-reconstruction-attack/"
+
+- year: 2026
   title: "TBLS: Transition-Based Language Similarity through Activation Perturbation"
   authors: "Tao Ren, Johannes Bjerva, and Qiongxiu Li"
   venue: "EMNLP 2026"
