@@ -2,7 +2,7 @@
   title: "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models"
   authors: "Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, and Johannes Bjerva"
   venue: "arXiv preprint · 2026"
-  themes: ["Factuality & Evaluation"]
+  themes: ["Factuality & Evaluation", "Security & Privacy"]
   summary: "Uses a custom tool to elicit intermediate reasoning from frontier models, comparing performance with native reasoning and analysing differences in token efficiency and reasoning structure."
   url: "https://vbn.aau.dk/en/publications/capable-yet-parsimonious-extracting-and-characterizing-hidden-cha/"
 
