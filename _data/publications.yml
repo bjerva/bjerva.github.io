@@ -1,4 +1,12 @@
 - year: 2026
+  title: "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models"
+  authors: "Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, and Johannes Bjerva"
+  venue: "arXiv preprint · 2026"
+  themes: ["Factuality & Evaluation"]
+  summary: "Uses a custom tool to elicit intermediate reasoning from frontier models, comparing performance with native reasoning and analysing differences in token efficiency and reasoning structure."
+  url: "https://arxiv.org/abs/2609.26637"
+
+- year: 2026
   title: "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning"
   authors: "Wenrui Yu, Changlong Ji, Johannes Bjerva, and Qiongxiu Li"
   venue: "CCS 2026 · Accepted"
@@ -77,6 +85,14 @@
   themes: ["Factuality & Evaluation"]
   summary: "Introduces benchmarks for financial information extraction from earnings calls, documenting domain-shift failures and evaluating open-ended LLM extraction with human experts."
   url: "https://aclanthology.org/2026.acl-industry.100/"
+
+- year: 2026
+  title: "A Hierarchical Evaluation Framework for LLM-driven Threat Modelling Tools"
+  authors: "Josephine Bakka, Andreas Brandhøj, Tobias Bøgedal, and Johannes Bjerva"
+  venue: "SECRYPT 2026"
+  themes: ["Security & Privacy", "Factuality & Evaluation"]
+  summary: "Introduces a systematic framework for evaluating LLM-driven threat-modelling tools, assessing output quality, LLM integration, and governance risks."
+  url: "https://doi.org/10.5220/0015000400004103"
 
 - year: 2026
   title: "HiFi-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings"
