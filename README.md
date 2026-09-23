@@ -16,6 +16,8 @@ Only officially confirmed courses and public research descriptions should be inc
 
 Before publishing, verify publication metadata against the ACL Anthology or publisher record and institutional details against current VBN pages and the latest approved CV.
 
+Link individual publications to their matching VBN record, preferring the published or accepted version where available. Apply this across the publication list, homepage highlights, and in-page references. Retain a publisher or repository link only when no matching VBN record can be verified.
+
 Project impact counts are dated snapshots from VBN. Keep the “current to” date on the Research page aligned with the records in `_data/projects.yml`, and express postdoctoral staffing as funded PD-months when that is how the award is specified.
 
 ## Reviewing changes

@@ -4,7 +4,7 @@
   venue: "arXiv preprint · 2026"
   themes: ["Factuality & Evaluation"]
   summary: "Uses a custom tool to elicit intermediate reasoning from frontier models, comparing performance with native reasoning and analysing differences in token efficiency and reasoning structure."
-  url: "https://arxiv.org/abs/2609.26637"
+  url: "https://vbn.aau.dk/en/publications/capable-yet-parsimonious-extracting-and-characterizing-hidden-cha/"
 
 - year: 2026
   title: "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning"
@@ -20,7 +20,7 @@
   venue: "EMNLP 2026"
   themes: ["Multilingual NLP", "Linguistics & Semantics"]
   summary: "Introduces a behaviour-driven language-similarity measure based on perturbation-induced cross-lingual transitions, showing stable patterns across five multilingual models and two corpora covering 44 languages."
-  url: "https://openreview.net/forum?id=TrNWQl6zPS"
+  url: "https://vbn.aau.dk/en/publications/tbls-transition-based-language-similarity-through-activation-pert/"
 
 - year: 2026
   title: "When Discourse Pressures Conflict: Information Structure in Vision-Language Model Outputs"
@@ -28,7 +28,7 @@
   venue: "EMNLP 2026"
   themes: ["Linguistics & Semantics", "Factuality & Evaluation"]
   summary: "Compares six vision-language models with human speakers in a Hungarian information-structure task, finding that models track discourse context but over-regularise interacting linguistic pressures into narrow response templates."
-  url: "https://openreview.net/forum?id=eB1qFlfQh1"
+  url: "https://vbn.aau.dk/en/publications/when-discourse-pressures-conflict-information-structure-in-vision/"
 
 - year: 2026
   title: "Few-shot Semantic Recovery Attacks on Image Embeddings"
@@ -36,7 +36,7 @@
   venue: "EMNLP 2026"
   themes: ["Security & Privacy"]
   summary: "Introduces CRAFT, a few-shot black-box attack that recovers captions and sensitive attributes from image embeddings across five open-source and proprietary embedders, while tested defences fail to close the leak without reducing downstream utility."
-  url: "https://openreview.net/forum?id=DNfp3FMWS2"
+  url: "https://vbn.aau.dk/en/publications/few-shot-semantic-recovery-attacks-on-image-embeddings/"
 
 - year: 2026
   title: "Do LLMs Really Memorize Personally Identifiable Information? Revisiting PII Leakage with a Cue-Controlled Memorization Framework"
@@ -44,7 +44,7 @@
   venue: "ACL 2026"
   themes: ["Security & Privacy", "Multilingual NLP"]
   summary: "Introduces Cue-Resistant Memorization to separate genuine memorisation from reconstruction enabled by lexical cues, showing across 32 languages that much apparent PII leakage is cue-driven."
-  url: "https://aclanthology.org/2026.acl-long.1560/"
+  url: "https://vbn.aau.dk/en/publications/do-llms-really-memorize-personally-identifiable-information-revis-2/"
 
 - year: 2026
   title: "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
@@ -52,7 +52,7 @@
   venue: "ICML 2026"
   themes: ["Factuality & Evaluation", "Multilingual NLP"]
   summary: "Introduces a multilingual, multi-hop benchmark grounded in knowledge-graph paths for evaluating and mitigating LLM hallucinations."
-  url: "https://openreview.net/forum?id=kGSwStubjL"
+  url: "https://vbn.aau.dk/en/publications/multihal-multilingual-dataset-for-knowledge-graph-grounded-evalua-2/"
 
 - year: 2026
   title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
@@ -60,7 +60,7 @@
   venue: "Computational Linguistics"
   themes: ["Multilingual NLP", "Factuality & Evaluation", "Linguistics & Semantics"]
   summary: "Introduces an explicit language-sampling framework and metrics, demonstrating that language selection materially affects the generalisability of multilingual evaluation claims."
-  url: "https://aclanthology.org/2026.cl-1.7/"
+  url: "https://vbn.aau.dk/en/publications/a-principled-framework-for-evaluating-on-typologically-diverse-la/"
 
 - year: 2026
   title: "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP"
@@ -68,7 +68,7 @@
   venue: "ACL 2026"
   themes: ["Factuality & Evaluation", "Multilingual NLP"]
   summary: "Audits non-English Wikipedia with quality filters usually applied to noisy web data, showing that multilingual NLP must treat data quality—not only coverage—as a first-class concern."
-  url: "https://aclanthology.org/2026.acl-long.1373/"
+  url: "https://vbn.aau.dk/en/publications/how-good-is-your-wikipedia-auditing-data-quality-for-low-resource-2/"
 
 - year: 2026
   title: "Follow the Path: Reasoning over Knowledge Graph Paths to Improve Large Language Model Factuality"
@@ -76,7 +76,7 @@
   venue: "Findings of ACL 2026"
   themes: ["Factuality & Evaluation"]
   summary: "Grounds reasoning traces in knowledge-graph paths and improves factuality across six open-domain question-answering benchmarks using 3.9K training examples."
-  url: "https://aclanthology.org/2026.findings-acl.561/"
+  url: "https://vbn.aau.dk/en/publications/follow-the-path-reasoning-over-knowledge-graph-paths-to-improve-l-2/"
 
 - year: 2026
   title: "Effective Performance Measurement: Challenges and Opportunities in KPI Extraction from Earnings Calls"
@@ -84,7 +84,7 @@
   venue: "ACL 2026 · Industry Track"
   themes: ["Factuality & Evaluation"]
   summary: "Introduces benchmarks for financial information extraction from earnings calls, documenting domain-shift failures and evaluating open-ended LLM extraction with human experts."
-  url: "https://aclanthology.org/2026.acl-industry.100/"
+  url: "https://vbn.aau.dk/en/publications/effective-performance-measurement-challenges-and-opportunities-in/"
 
 - year: 2026
   title: "A Hierarchical Evaluation Framework for LLM-driven Threat Modelling Tools"
@@ -92,7 +92,7 @@
   venue: "SECRYPT 2026"
   themes: ["Security & Privacy", "Factuality & Evaluation"]
   summary: "Introduces a systematic framework for evaluating LLM-driven threat-modelling tools, assessing output quality, LLM integration, and governance risks."
-  url: "https://doi.org/10.5220/0015000400004103"
+  url: "https://vbn.aau.dk/en/publications/a-hierarchical-evaluation-framework-for-llm-driven-threat-modelli/"
 
 - year: 2026
   title: "HiFi-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings"
@@ -100,7 +100,7 @@
   venue: "LREC 2026"
   themes: ["Factuality & Evaluation"]
   summary: "Introduces a financial information-extraction dataset with hierarchical labels, supporting evaluation of KPI classification, extraction, and structured extraction."
-  url: "https://aclanthology.org/2026.lrec-1.30/"
+  url: "https://vbn.aau.dk/en/publications/hifi-kpi-a-dataset-for-hierarchical-kpi-extraction-from-earnings--2/"
 
 - year: 2026
   title: "SEFL: A Framework for Generating Synthetic Educational Assignment Feedback with LLM Agents"
@@ -108,7 +108,7 @@
   venue: "LREC 2026"
   themes: ["NLP for Education"]
   summary: "Uses teacher–student LLM simulations to generate educational feedback data, improving smaller models’ feedback quality in expert and model-based evaluations."
-  url: "https://aclanthology.org/2026.lrec-1.811/"
+  url: "https://vbn.aau.dk/en/publications/sefl-a-framework-for-generating-synthetic-educational-assignment--2/"
 
 - year: 2025
   title: "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"
@@ -116,7 +116,7 @@
   venue: "EMNLP 2025"
   themes: ["Security & Privacy", "Multilingual NLP"]
   summary: "Studies memorisation across 95 languages, model families, scales, and definitions, showing that language similarity reveals cross-lingual patterns beyond training-data volume."
-  url: "https://aclanthology.org/2025.emnlp-main.978/"
+  url: "https://vbn.aau.dk/en/publications/shared-path-unraveling-memorization-in-multilingual-llms-through-/"
 
 - year: 2025
   title: "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective"
@@ -124,7 +124,7 @@
   venue: "Journal of Web Semantics"
   themes: ["Factuality & Evaluation"]
   summary: "Develops a taxonomy of how knowledge graphs can support the detection, evaluation, and mitigation of LLM hallucinations, and identifies open problems at the knowledge-graph–LLM interface."
-  url: "https://doi.org/10.1016/j.websem.2024.100844"
+  url: "https://vbn.aau.dk/en/publications/knowledge-graphs-large-language-models-and-hallucinations-an-nlp-/"
 
 - year: 2025
   title: "NLP Security and Ethics, in the Wild"
@@ -132,7 +132,7 @@
   venue: "TACL"
   themes: ["Security & Privacy"]
   summary: "Connects NLP-security research with established cybersecurity ethics, develops the idea of “white-hat NLP,” and offers guidance for harm minimisation and responsible disclosure."
-  url: "https://aclanthology.org/2025.tacl-1.33/"
+  url: "https://vbn.aau.dk/en/publications/nlp-security-and-ethics-in-the-wild/"
 
 - year: 2025
   title: "ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation"
@@ -140,7 +140,7 @@
   venue: "ACL 2025"
   themes: ["Security & Privacy", "Multilingual NLP"]
   summary: "Shows that partially successful text-embedding inversion is possible from a single example by aligning victim and attack embedding spaces, including transfer across domains and languages."
-  url: "https://aclanthology.org/2025.acl-long.1185/"
+  url: "https://vbn.aau.dk/en/publications/algen-few-shot-inversion-attacks-on-textual-embeddings-using-alig/"
 
 - year: 2025
   title: "Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks"
@@ -148,7 +148,7 @@
   venue: "AAAI 2025"
   themes: ["Security & Privacy", "Multilingual NLP", "Linguistics & Semantics"]
   summary: "Studies multilingual embedding inversion across 20 languages, eight language families, and 12 scripts, identifying script- and family-specific vulnerabilities alongside predictable language confusion."
-  url: "https://ojs.aaai.org/index.php/AAAI/article/view/34533"
+  url: "https://vbn.aau.dk/en/publications/against-all-odds-overcoming-typology-script-and-language-confusio/"
 
 - year: 2025
   title: "Large Language Models are Easily Confused: A Quantitative Metric, Security Implications and Typological Analysis"
@@ -156,7 +156,7 @@
   venue: "Findings of NAACL 2025"
   themes: ["Security & Privacy", "Multilingual NLP", "Linguistics & Semantics"]
   summary: "Introduces Language Confusion Entropy to quantify unintended output-language switches and links these failures to linguistic typology and multilingual embedding inversion."
-  url: "https://aclanthology.org/2025.findings-naacl.210/"
+  url: "https://vbn.aau.dk/en/publications/large-language-models-are-easily-confused-a-quantitative-metric-s/"
 
 - year: 2025
   title: "Linguistically Grounded Analysis of Language Models using Shapley Head Values"
@@ -164,7 +164,7 @@
   venue: "Findings of NAACL 2025"
   themes: ["Linguistics & Semantics"]
   summary: "Uses Shapley Head Values to analyse how BERT and RoBERTa attention heads organise around related morphosyntactic phenomena."
-  url: "https://aclanthology.org/2025.findings-naacl.49/"
+  url: "https://vbn.aau.dk/en/publications/linguistically-grounded-analysis-of-language-models-using-shapley/"
 
 - year: 2024
   title: "Text Embedding Inversion Security for Multilingual Language Models"
@@ -172,7 +172,7 @@
   venue: "ACL 2024"
   themes: ["Security & Privacy", "Multilingual NLP"]
   summary: "Defines multilingual and cross-lingual embedding-inversion attacks, showing that risk varies by language and English-centred defences do not automatically transfer."
-  url: "https://aclanthology.org/2024.acl-long.422/"
+  url: "https://vbn.aau.dk/en/publications/text-embedding-inversion-security-for-multilingual-language-model/"
 
 - year: 2024
   title: "What is “Typological Diversity” in NLP?"
@@ -180,7 +180,7 @@
   venue: "EMNLP 2024"
   themes: ["Multilingual NLP", "Factuality & Evaluation", "Linguistics & Semantics"]
   summary: "Shows that NLP papers use “typological diversity” inconsistently, and provides measures for more defensible language sampling and multilingual evaluation."
-  url: "https://aclanthology.org/2024.emnlp-main.326/"
+  url: "https://vbn.aau.dk/en/publications/what-is-typological-diversity-in-nlp/"
 
 - year: 2024
   title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
@@ -188,7 +188,7 @@
   venue: "TACL"
   themes: ["Multilingual NLP", "Factuality & Evaluation"]
   summary: "Provides benchmarks for eight NLP tasks across as many as 28 Creole languages, including newly developed datasets."
-  url: "https://aclanthology.org/2024.tacl-1.53/"
+  url: "https://vbn.aau.dk/en/publications/creoleval-multilingual-multitask-benchmarks-for-creoles-2/"
 
 - year: 2024
   title: "The Role of Typological Feature Prediction in NLP and Linguistics"
@@ -196,7 +196,7 @@
   venue: "Computational Linguistics"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Critically examines whether typological feature prediction serves its claimed purposes in NLP and linguistic documentation, using a survey of typologists to offer recommendations for better interdisciplinary alignment."
-  url: "https://aclanthology.org/2024.cl-2.8/"
+  url: "https://vbn.aau.dk/en/publications/the-role-of-typological-feature-prediction-in-nlp-and-linguistics/"
 
 - year: 2023
   title: "Colex2Lang: Language Embeddings from Semantic Typology"
@@ -204,7 +204,7 @@
   venue: "NoDaLiDa 2023"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Learns language representations from cross-linguistic colexification graphs, providing a semantic-typology route to modelling language similarity."
-  url: "https://aclanthology.org/2023.nodalida-1.67/"
+  url: "https://vbn.aau.dk/en/publications/colex2lang-language-embeddings-from-semantic-typology/"
 
 - year: 2021
   title: "Inducing Language-Agnostic Multilingual Representations"
@@ -212,7 +212,7 @@
   venue: "*SEM 2021"
   themes: ["Multilingual NLP"]
   summary: "Tests methods for removing language-identity signals from multilingual representations across 19 languages, clarifying when representation alignment improves cross-lingual transfer and when intuitive normalisation methods fail."
-  url: "https://aclanthology.org/2021.starsem-1.22/"
+  url: "https://vbn.aau.dk/en/publications/inducing-language-agnostic-multilingual-representations/"
 
 - year: 2020
   title: "Zero-Shot Cross-Lingual Transfer with Meta Learning"
@@ -220,7 +220,7 @@
   venue: "EMNLP 2020"
   themes: ["Multilingual NLP"]
   summary: "Uses meta-learning to select source-language training instances for zero-shot transfer across 15 languages, with a typological analysis of when learned cross-lingual sharing helps."
-  url: "https://aclanthology.org/2020.emnlp-main.368/"
+  url: "https://vbn.aau.dk/en/publications/zero-shot-cross-lingual-transfer-with-meta-learning/"
 
 - year: 2020
   title: "SubjQA: A Dataset for Subjectivity and Review Comprehension"
@@ -228,7 +228,7 @@
   venue: "EMNLP 2020"
   themes: ["Factuality & Evaluation"]
   summary: "Introduces a question-answering dataset with subjectivity annotations for questions and answer spans across six review domains, making subjectivity effects measurable in extractive QA."
-  url: "https://aclanthology.org/2020.emnlp-main.442/"
+  url: "https://vbn.aau.dk/en/publications/subjqa-a-dataset-for-subjectivity-and-review-comprehension/"
 
 - year: 2019
   title: "What Do Language Representations Really Represent?"
@@ -236,7 +236,7 @@
   venue: "Computational Linguistics"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Disentangles structural, genetic, and geographical signals in language representations learned from translated text, finding structural similarity strongest while genetic relatedness can act as a confound."
-  url: "https://aclanthology.org/J19-2006/"
+  url: "https://vbn.aau.dk/en/publications/what-do-language-representations-really-represent/"
 
 - year: 2019
   title: "A Probabilistic Generative Model of Linguistic Typology"
@@ -244,7 +244,7 @@
   venue: "NAACL 2019"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Models languages and typological features jointly through exponential-family matrix factorisation, connecting feature covariance with generalisation to unseen languages."
-  url: "https://aclanthology.org/N19-1156/"
+  url: "https://vbn.aau.dk/en/publications/a-probabilistic-generative-model-of-linguistic-typology/"
 
 - year: 2018
   title: "From Phonology to Syntax: Unsupervised Linguistic Typology at Different Levels with Language Embeddings"
@@ -252,7 +252,7 @@
   venue: "NAACL 2018"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Shows that multilingual language embeddings encode typological structure across phonology, morphology, and syntax, supporting their use for linguistic analysis and cross-lingual transfer."
-  url: "https://aclanthology.org/N18-1083/"
+  url: "https://vbn.aau.dk/en/publications/from-phonology-to-syntax-unsupervised-linguistic-typology-at-diff/"
 
 - year: 2017
   title: "The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations Annotated with Compositional Meaning Representations"
@@ -260,7 +260,7 @@
   venue: "EACL 2017"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Introduces a multilingual corpus whose translations share compositional meaning representations based on Discourse Representation Theory."
-  url: "https://aclanthology.org/E17-2039/"
+  url: "https://vbn.aau.dk/en/publications/the-parallel-meaning-bank-towards-a-multilingual-corpus-of-transl/"
 
 - year: 2016
   title: "Semantic Tagging with Deep Residual Networks"
@@ -268,7 +268,7 @@
   venue: "COLING 2016"
   themes: ["Linguistics & Semantics", "Multilingual NLP"]
   summary: "Introduces semantic tagging as a fine-grained task for multilingual semantic parsing and presents a deep residual architecture for the task."
-  url: "https://aclanthology.org/C16-1333/"
+  url: "https://vbn.aau.dk/en/publications/semantic-tagging-with-deep-residual-networks/"
 
 - year: 2014
   title: "The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity"
