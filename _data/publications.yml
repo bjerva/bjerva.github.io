@@ -1,7 +1,7 @@
 - year: 2026
   title: "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models"
   authors: "Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, and Johannes Bjerva"
-  venue: "arXiv preprint · 2026"
+  venue: "arXiv preprint"
   themes: ["Factuality & Evaluation", "Security & Privacy"]
   summary: "Uses a custom tool to elicit intermediate reasoning from frontier models, comparing performance with native reasoning and analysing differences in token efficiency and reasoning structure."
   url: "https://vbn.aau.dk/en/publications/capable-yet-parsimonious-extracting-and-characterizing-hidden-cha/"
@@ -11,7 +11,7 @@
   authors: "Wenrui Yu, Changlong Ji, Johannes Bjerva, and Qiongxiu Li"
   venue: "CCS 2026 · Accepted"
   themes: ["Security & Privacy"]
-  summary: "Introduces a lattice-based reconstruction attack showing how colluding semi-honest nodes can recover protected model updates from local secure aggregates under sparse decentralized federated learning topologies, enabling downstream reconstruction of private training data."
+  summary: "Shows how colluding semi-honest nodes can recover model updates from secure aggregates in sparse decentralised federated-learning topologies, enabling reconstruction of private training data."
   url: "https://vbn.aau.dk/en/publications/when-topology-betrays-privacy-lattice-based-reconstruction-attack/"
 
 - year: 2026
@@ -53,6 +53,11 @@
   themes: ["Factuality & Evaluation", "Multilingual NLP"]
   summary: "Introduces a multilingual, multi-hop benchmark grounded in knowledge-graph paths for evaluating and mitigating LLM hallucinations."
   url: "https://vbn.aau.dk/en/publications/multihal-multilingual-dataset-for-knowledge-graph-grounded-evalua-2/"
+  resources:
+    - label: "Code"
+      url: "https://github.com/ernlavr/multihal"
+    - label: "Data"
+      url: "https://huggingface.co/datasets/ernlavr/multihal"
 
 - year: 2026
   title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
@@ -101,6 +106,11 @@
   themes: ["Factuality & Evaluation"]
   summary: "Introduces a financial information-extraction dataset with hierarchical labels, supporting evaluation of KPI classification, extraction, and structured extraction."
   url: "https://vbn.aau.dk/en/publications/hifi-kpi-a-dataset-for-hierarchical-kpi-extraction-from-earnings--2/"
+  resources:
+    - label: "Code"
+      url: "https://github.com/aaunlp/HiFi-KPI"
+    - label: "Data"
+      url: "https://huggingface.co/datasets/AAU-NLP/HiFi-KPI"
 
 - year: 2026
   title: "SEFL: A Framework for Generating Synthetic Educational Assignment Feedback with LLM Agents"
@@ -189,6 +199,9 @@
   themes: ["Multilingual NLP", "Factuality & Evaluation"]
   summary: "Provides benchmarks for eight NLP tasks across as many as 28 Creole languages, including newly developed datasets."
   url: "https://vbn.aau.dk/en/publications/creoleval-multilingual-multitask-benchmarks-for-creoles-2/"
+  resources:
+    - label: "Code and data"
+      url: "https://github.com/hclent/CreoleVal"
 
 - year: 2024
   title: "The Role of Typological Feature Prediction in NLP and Linguistics"
@@ -229,6 +242,9 @@
   themes: ["Factuality & Evaluation"]
   summary: "Introduces a question-answering dataset with subjectivity annotations for questions and answer spans across six review domains, making subjectivity effects measurable in extractive QA."
   url: "https://vbn.aau.dk/en/publications/subjqa-a-dataset-for-subjectivity-and-review-comprehension/"
+  resources:
+    - label: "Data"
+      url: "https://github.com/megagonlabs/SubjQA"
 
 - year: 2019
   title: "What Do Language Representations Really Represent?"

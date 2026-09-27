@@ -3,6 +3,7 @@
 The logos in this directory identify the organisations named on the Research page. They remain the property and trademarks of their respective organisations.
 
 - Aalborg University: mark reproduced from the official AAU website header.
+- ALIPES ApS: official wordmark downloaded from https://www.alipes.dk/images/logos/logo.desktop.png on 27 September 2026; stored locally without modification.
 - Carlsberg Foundation: English white web SVG from the foundation's official logo pack.
 - Coefficient Giving: [“Coefficient Logo Green” by Aarongertler](https://commons.wikimedia.org/wiki/File:Coefficient_Logo_Green.png), resized and displayed with inverted colours, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - Google: official Google wordmark asset.

@@ -2,7 +2,7 @@
 [build]
   command = "bundle exec jekyll build && python3 _scripts/verify_site.py _site && python3 _scripts/prepare_preview.py _site _preview"
   publish = "_preview"
-  ignore = 'test "$BRANCH" != "audit/september-2026"'
+  ignore = 'case "$BRANCH" in audit/*|review/*) exit 1 ;; *) exit 0 ;; esac'
 
 [build.environment]
   JEKYLL_ENV = "production"

@@ -2,7 +2,7 @@ name: Build review site
 
 on:
   push:
-    branches: ["audit/**"]
+    branches: ["audit/**", "review/**"]
 
 permissions:
   contents: read
