@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, follow">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+    <title>Redirecting · {{ site.title | escape }}</title>
+  </head>
+  <body>
+    <main><h1>Redirecting to the homepage</h1><p><a href="{{ page.redirect_to | relative_url }}">Continue to Johannes Bjerva’s website</a>.</p></main>
+  </body>
+</html>

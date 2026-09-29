@@ -16,11 +16,9 @@ permalink: /publications/
 <section class="section publication-section">
   <div class="shell publication-controls" role="group" aria-label="Filter publications">
     <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
-    <button class="filter-button" type="button" data-filter="Linguistics &amp; Semantics" aria-pressed="false">Linguistics &amp; semantics</button>
-    <button class="filter-button" type="button" data-filter="Security &amp; Privacy" aria-pressed="false">Security &amp; privacy</button>
-    <button class="filter-button" type="button" data-filter="Multilingual NLP" aria-pressed="false">Multilingual NLP</button>
-    <button class="filter-button" type="button" data-filter="Factuality &amp; Evaluation" aria-pressed="false">Factuality &amp; evaluation</button>
-    <button class="filter-button" type="button" data-filter="NLP for Education" aria-pressed="false">NLP for education</button>
+    {% for topic in site.data.topics %}
+    <button class="filter-button" type="button" data-filter="{{ topic.label | escape }}" aria-pressed="false">{{ topic.label | escape }}</button>
+    {% endfor %}
   </div>
   <div class="shell publication-list">
     {% for publication in site.data.publications %}
@@ -34,8 +32,13 @@ permalink: /publications/
           <h2><a href="{{ publication.url }}">{{ publication.title | escape }}</a></h2>
           <p class="publication-authors">{{ publication.authors | escape | replace: 'Johannes Bjerva', '<strong class="publication-author-self">Johannes Bjerva</strong>' }}</p>
           <p class="publication-summary">{{ publication.summary | escape }}</p>
+          {% if publication.resources %}
+          <div class="inline-links publication-resources">
+            {% for resource in publication.resources %}<a href="{{ resource.url }}" aria-label="{{ resource.label | escape }} for {{ publication.title | escape }}">{{ resource.label | escape }} <span aria-hidden="true">↗</span></a>{% endfor %}
+          </div>
+          {% endif %}
         </div>
-        <a class="publication-arrow" href="{{ publication.url }}" aria-label="Open {{ publication.title | escape }}">↗</a>
+        <span class="publication-arrow" aria-hidden="true">↗</span>
       </article>
     {% endfor %}
   </div>

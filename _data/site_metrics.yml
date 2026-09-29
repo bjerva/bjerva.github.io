@@ -2,10 +2,12 @@ funding:
   prefix: "≈ DKK"
   total: "25M"
   shared_total: "10M"
-  summary: "Plus ≈DKK 10M in shared or internal programmes."
+  summary: "Plus ≈ DKK 10M in shared or internal programmes."
   qualification: "Full award values; funding shares are shown per project."
 
 outlets:
+  - "CCS"
+  - "NeurIPS"
   - "ACL"
   - "EMNLP"
   - "TACL"

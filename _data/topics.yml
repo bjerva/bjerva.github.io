@@ -1,0 +1,10 @@
+- id: semantics
+  label: "Linguistics & Semantics"
+- id: security
+  label: "Security & Privacy"
+- id: multilingual
+  label: "Multilingual NLP"
+- id: factuality
+  label: "Factuality & Evaluation"
+- id: education
+  label: "NLP for Education"

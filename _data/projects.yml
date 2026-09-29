@@ -15,7 +15,7 @@
   theme: "security"
   description: "Developing linguistically grounded approaches to security and privacy in language models, including inversion attacks, information leakage, and malicious manipulation across languages."
   impact_metric: "9 VBN records"
-  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026."
+  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026 and the diffusion-model memorisation paper accepted at NeurIPS 2026."
   url: "https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/"
 
 - title: "TRUST"
@@ -37,7 +37,7 @@
   description: "Investigating whether linguistic signals in generated text can reveal poisoning and support more robust language models."
   impact_label: "Current status"
   impact_metric: "Started May 2026"
-  impact: "The four-year programme began in May 2026. Project-linked research outputs are forthcoming."
+  impact: "The four-year programme began in May 2026. VBN now links the Capable yet Parsimonious preprint, which studies tool-elicited reasoning in frontier models, to the programme."
   link_label: "Project details on VBN"
   url: "https://vbn.aau.dk/en/projects/building-trust-in-text-linguistically-motivated-language-model-de/"
 
@@ -60,7 +60,7 @@
   description: "Developing formal and computational semantic methods to analyse and explain language-model behaviour in multilingual settings."
   impact_label: "Current status"
   impact_metric: "Started May 2026"
-  impact: "The two-year programme began in May 2026. Project-linked research outputs are forthcoming."
+  impact: "The two-year programme began in May 2026. Early linked work includes Capable yet Parsimonious, a preprint analysing the structure and efficiency of tool-elicited reasoning."
   link_label: "Project details on VBN"
   url: "https://vbn.aau.dk/en/projects/formal-semantic-methods-for-ai-safety/"
 
@@ -75,7 +75,7 @@
       label: "Aalborg University"
       treatment: "invert"
   period: "2025–2029"
-  amount: "~DKK 7M"
+  amount: "≈ DKK 7M"
   programme: "AI:X Labs · Aalborg University"
   role: "Lab Director / Principal Investigator · Co-led with Qiongxiu Li"
   funding_share: "50% · co-led"
@@ -94,7 +94,7 @@
   logos:
     - src: "/assets/images/funders/innovation-fund-denmark.svg"
       alt: "Innovation Fund Denmark"
-    - src: "https://www.alipes.dk/images/logos/logo.desktop.png"
+    - src: "/assets/images/funders/alipes.png"
       alt: "ALIPES ApS"
   period: "2024–2027"
   amount: "DKK 1.1M"
@@ -126,6 +126,8 @@
   impact_metric: "44 VBN records · 35 activities"
   impact: "Completed in August 2026. Linked research spans typological diversity, multilingual embedding inversion, and low-resource evaluation; EMNLP 2026 papers examine semantic recovery from image embeddings and information structure in vision-language models."
   related_award:
+    award_year: 2023
+    url: "https://research.google/programs-and-events/society-centered-ai/google-society-centered-ai-research-awardees/"
     title: "Google Award for Inclusion Research · CREOLE"
     amount: "DKK 425k"
     funding_share: "100%"
@@ -147,11 +149,11 @@
   period: "2024–2026"
   amount: "DKK 3M"
   programme: "Villum Synergy · Villum Foundation"
-  role: "Principal Investigator / NLP methods lead"
+  role: "Principal Investigator / NLP methods lead · Co-led with Euan Lindsay"
   funding_share: "50% · co-led"
   staffing: "24 PD-months"
   theme: "education"
   description: "Studying explainable multilingual NLP for scalable, high-quality feedback in education."
   impact_metric: "16 VBN records · 7 media items"
-  impact: "Linked work connects synthetic educational feedback with LLM agents and knowledge-grounded factuality, alongside sustained public discussion of AI-supported teaching and assessment."
+  impact: "Active, with a scheduled end in December 2026. Linked work connects synthetic educational feedback with LLM agents and knowledge-grounded factuality, alongside public discussion of AI-supported teaching and assessment."
   url: "https://vbn.aau.dk/en/projects/digital-twins-for-abundant-feedback-novel-feedback-paradigms-via-/"

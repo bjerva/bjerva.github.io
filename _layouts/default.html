@@ -25,7 +25,14 @@
         "@type": "Person",
         "name": "Johannes Bjerva",
         "url": "{{ '/' | absolute_url }}",
+        "image": "{{ '/images/johannes-bjerva-sciencereport.jpg' | absolute_url }}",
+        "email": {{ site.author.email | jsonify }},
         "jobTitle": "Professor of Natural Language Processing",
+        "worksFor": {
+          "@type": "CollegeOrUniversity",
+          "name": "Aalborg University",
+          "url": "https://www.en.aau.dk/"
+        },
         "affiliation": {
           "@type": "CollegeOrUniversity",
           "name": "Aalborg University",
@@ -81,6 +88,7 @@
           <p>Professor of Natural Language Processing<br>Aalborg University · Copenhagen</p>
         </div>
         <nav class="footer-links" aria-label="External profiles">
+          <a href="https://vbn.aau.dk/en/persons/jbjerva/">AAU Research Portal</a>
           <a href="https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en">Google Scholar</a>
           <a href="https://aclanthology.org/people/johannes-bjerva/">ACL Anthology</a>
           <a href="https://orcid.org/0000-0002-9512-0739">ORCID</a>

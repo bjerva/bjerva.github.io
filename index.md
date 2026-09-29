@@ -60,14 +60,18 @@ body_class: home
   <div class="shell news-grid">
     <div class="news-heading">
       <p class="eyebrow">Selected highlights</p>
-      <h2>Recent work</h2>
+      <h2>Highlights</h2>
       <p>A selective timeline of research and career milestones.</p>
     </div>
     <ol class="timeline">
       {% for item in site.data.highlights %}
         <li class="reveal">
           <time>{{ item.date }}</time>
-          <div><h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</h3><p>{{ item.text | escape }}</p></div>
+          <div>
+            <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</h3>
+            <p>{{ item.text | escape }}</p>
+            {% if item.papers %}<ul class="highlight-papers">{% for paper in item.papers %}<li><a href="{{ paper.url | escape }}">{{ paper.label | escape }} <span aria-hidden="true">↗</span></a></li>{% endfor %}</ul>{% endif %}
+          </div>
         </li>
       {% endfor %}
     </ol>
