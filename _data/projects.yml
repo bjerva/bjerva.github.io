@@ -15,7 +15,7 @@
   theme: "security"
   description: "Developing linguistically grounded approaches to security and privacy in language models, including inversion attacks, information leakage, and malicious manipulation across languages."
   impact_metric: "9 VBN records"
-  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026."
+  impact: "The first outputs address personal-information memorisation, extraction from diffusion language models, and semantic leakage from image embeddings, including work appearing at ACL and EMNLP 2026 and the diffusion-model memorisation paper accepted at NeurIPS 2026."
   url: "https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/"
 
 - title: "TRUST"

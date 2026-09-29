@@ -24,7 +24,6 @@ Project impact counts are dated snapshots from VBN. Keep the snapshot date on th
 
 The sitemap is generated solely by `jekyll-sitemap`. Legacy `/about/` and `/old.html` routes use the redirect layout and are excluded from the sitemap. Store logos locally and document their sources in `assets/images/funders/ATTRIBUTION.md`.
 
-The downloadable short CV is generated from `cv.html` and project data. After editing those sources, run `python3 _scripts/build_cv_pdf.py --date YYYY-MM-DD` with ReportLab and PyYAML installed, review both PDF pages, and commit the updated `assets/documents/johannes-bjerva-cv.pdf` alongside the source changes.
 
 ## Reviewing changes
 

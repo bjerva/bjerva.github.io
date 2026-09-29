@@ -7,6 +7,14 @@
   url: "https://vbn.aau.dk/en/publications/capable-yet-parsimonious-extracting-and-characterizing-hidden-cha/"
 
 - year: 2026
+  title: "Characterizing Memorization in Diffusion Language Models: Generalized Extraction and Sampling Effects"
+  authors: "Xiaoyu Luo, Wenrui Yu, Qiongxiu Li, and Johannes Bjerva"
+  venue: "NeurIPS 2026 · Accepted"
+  themes: ["Security & Privacy"]
+  summary: "Develops a generalised extraction framework for diffusion language models, analysing how masking patterns and sampling resolution affect memorisation and training-data leakage."
+  url: "https://vbn.aau.dk/en/publications/characterizing-memorization-in-diffusion-language-models-generali/"
+
+- year: 2026
   title: "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning"
   authors: "Wenrui Yu, Changlong Ji, Johannes Bjerva, and Qiongxiu Li"
   venue: "CCS 2026 · Accepted"

@@ -34,13 +34,13 @@ Base: `master` at `053554e`. Review branch: `review/external-feedback-september-
 | CV roles | Add existing editorial/Area Chair/AI:SECURITY roles and align Team Lead with Service. |
 | Shared-award CV wording | Preserve the previously approved qualifier, including total award and 50% share. |
 | Google award | Add CREOLE, dated 2023 according to Google's official awardee list. |
-| PDF CV | Add a dated downloadable short CV generated from the current page and project data. |
+| PDF CV | Removed on 29 September at the user’s request, including the download link, PDF asset and generator. |
 | Education partner | Name SEFL and Digital Twins in Collaborate. |
 | Funding routes | Link the MSCA heading and add Cluster 3 with a specific-call qualification. |
 | Legacy stubs | Replace with immediate meta-refresh redirects plus canonical and accessible fallback link, compatible with GitHub Pages. |
 | Sitemap | Remove the handwritten file; retain jekyll-sitemap as the sole generator. |
 | Footer and structured data | Add AAU Research Portal, Person image, worksFor and public institutional email. |
-| README | Document current production/review workflow, data ownership, dated snapshots and PDF generation. |
+| README | Document current production/review workflow, data ownership, dated snapshots. |
 | Branch pruning | No remote branches deleted. audit/september-2026, website-clean-base-2026 and website-refresh-2026 are fully merged; five agent/website branches contain commits outside master and need individual review before deletion. |
 
 ## Factual sources
@@ -66,3 +66,9 @@ Base: `master` at `053554e`. Review branch: `review/external-feedback-september-
 - Both PDF pages rendered and visually inspected, including typography, role/funding text, page breaks and links.
 - Mobile CSS reviewed, including the resource-link grid row; a dedicated mobile-browser rendering was unavailable because the local browser download failed. No mobile visual pass is claimed.
 - Review hosting uses the separate `johannes-bjerva-review` Netlify project with noindex/nofollow and analytics removed; production remains on unchanged master.
+
+## Follow-up - 29 September 2026
+
+- Removed the downloadable CV, its generator and README instructions at the user’s request. The HTML CV remains.
+- Added Characterizing Memorization in Diffusion Language Models: Generalized Extraction and Sampling Effects as NeurIPS 2026 · Accepted, with Security & Privacy and its VBN link. Acceptance is confirmed directly by the user; VBN still lists the preprint. Title, author order and contribution summary were checked against the VBN record.
+- Added NeurIPS to selected outlets and the acceptance to highlights and the relevant (LM)²-SEC project description. Dated record-count snapshots remain unchanged.
